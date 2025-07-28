@@ -1,0 +1,32 @@
+{
+  "name": "oracle-mcp-server",
+  "version": "1.0.0",
+  "description": "MCP server for Oracle database access",
+  "main": "src/index.js",
+  "type": "module",
+  "bin": {
+    "oracle-mcp-server": "./src/index.js"
+  },
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js"
+  },
+  "keywords": [
+    "mcp",
+    "oracle",
+    "database",
+    "claude",
+    "ai",
+    "model-context-protocol"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0",
+    "oracledb": "^6.3.0",
+    "dotenv": "^17.2.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
