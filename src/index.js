@@ -5,28 +5,39 @@ import { StdioServerTransport } from '@modelcontextprotocol/sdk/server/stdio.js'
 import { CallToolRequestSchema, ListToolsRequestSchema } from '@modelcontextprotocol/sdk/types.js';
 import oracledb from 'oracledb';
 import dotenv from 'dotenv';
+import { fileURLToPath, pathToFileURL } from 'url';
 
 dotenv.config();
 
 // Initialize Oracle client
-// For Oracle Autonomous Database with wallet, you may need thick mode
-if (process.env.TNS_ADMIN || process.env.ORACLE_WALLET_LOCATION) {
-  try {
-    // Initialize thick mode for wallet-based connections
-    const clientOpts = {};
-    if (process.env.ORACLE_CLIENT_PATH) {
-      clientOpts.libDir = process.env.ORACLE_CLIENT_PATH;
-    }
-    if (process.env.TNS_ADMIN) {
-      clientOpts.configDir = process.env.TNS_ADMIN;
-    }
-    oracledb.initOracleClient(clientOpts);
-    console.error('Oracle client initialized in thick mode for wallet support');
-  } catch (err) {
-    console.error('Failed to initialize Oracle client:', err.message);
-    console.error('Continuing in thin mode - wallet connections may not work');
+try {
+  let clientOpts = {};
+  if (process.env.ORACLE_CLIENT_LIB_DIR) {
+    clientOpts.libDir = process.env.ORACLE_CLIENT_LIB_DIR;
+  } else if (process.env.ORACLE_CLIENT_PATH) {
+    clientOpts.libDir = process.env.ORACLE_CLIENT_PATH;
   }
+  
+  if (process.env.TNS_ADMIN) {
+    clientOpts.configDir = process.env.TNS_ADMIN;
+  }
+  
+  // Always try to initialize client if libDir is provided, regardless of wallet settings
+  if (clientOpts.libDir) {
+    try {
+      oracledb.initOracleClient(clientOpts);
+      // Only log on error to avoid polluting stderr which might confuse some MCP clients
+      // console.error(`Oracle client initialized in thick mode (libDir: ${clientOpts.libDir})`);
+    } catch (e) {
+      // Re-throw if initialization fails
+      throw e;
+    }
+  }
+} catch (err) {
+  console.error('Failed to initialize Oracle client:', err.message);
+  console.error('Continuing in thin mode - this may fail if Thick mode is required');
 }
+
 
 class OracleMCPServer {
   constructor() {
@@ -549,6 +560,6 @@ const server = new OracleMCPServer();
 export { OracleMCPServer };
 
 // Run server if called directly
-if (import.meta.url === `file://${process.argv[1]}`) {
+if (import.meta.url === pathToFileURL(process.argv[1]).href) {
   server.run().catch(console.error);
 }

@@ -1,0 +1,3286 @@
+{
+  "AFFECTATIONS": [
+    {
+      "TABLE_NAME": "AFFECTATIONS",
+      "COLUMN_NAME": "ID",
+      "DATA_TYPE": "NUMBER",
+      "DATA_LENGTH": 22,
+      "DATA_PRECISION": null,
+      "DATA_SCALE": null
+    },
+    {
+      "TABLE_NAME": "AFFECTATIONS",
+      "COLUMN_NAME": "MATRICULE",
+      "DATA_TYPE": "NUMBER",
+      "DATA_LENGTH": 22,
+      "DATA_PRECISION": null,
+      "DATA_SCALE": null
+    },
+    {
+      "TABLE_NAME": "AFFECTATIONS",
+      "COLUMN_NAME": "DIRECTION",
+      "DATA_TYPE": "VARCHAR2",
+      "DATA_LENGTH": 50,
+      "DATA_PRECISION": null,
+      "DATA_SCALE": null
+    },
+    {
+      "TABLE_NAME": "AFFECTATIONS",
+      "COLUMN_NAME": "SERVICE",
+      "DATA_TYPE": "VARCHAR2",
+      "DATA_LENGTH": 20,
+      "DATA_PRECISION": null,
+      "DATA_SCALE": null
+    },
+    {
+      "TABLE_NAME": "AFFECTATIONS",
+      "COLUMN_NAME": "DATE_DEBUT",
+      "DATA_TYPE": "DATE",
+      "DATA_LENGTH": 7,
+      "DATA_PRECISION": null,
+      "DATA_SCALE": null
+    },
+    {
+      "TABLE_NAME": "AFFECTATIONS",
+      "COLUMN_NAME": "DATE_FIN",
+      "DATA_TYPE": "DATE",
+      "DATA_LENGTH": 7,
+      "DATA_PRECISION": null,
+      "DATA_SCALE": null
+    },
+    {
+      "TABLE_NAME": "AFFECTATIONS",
+      "COLUMN_NAME": "FONCTION",
+      "DATA_TYPE": "VARCHAR2",
+      "DATA_LENGTH": 100,
+      "DATA_PRECISION": null,
+      "DATA_SCALE": null
+    },
+    {
+      "TABLE_NAME": "AFFECTATIONS",
+      "COLUMN_NAME": "OBSERVATION",
+      "DATA_TYPE": "VARCHAR2",
+      "DATA_LENGTH": 500,
+      "DATA_PRECISION": null,
+      "DATA_SCALE": null
+    },
+    {
+      "TABLE_NAME": "AFFECTATIONS",
+      "COLUMN_NAME": "DATE_MODIF",
+      "DATA_TYPE": "DATE",
+      "DATA_LENGTH": 7,
+      "DATA_PRECISION": null,
+      "DATA_SCALE": null
+    },
+    {
+      "TABLE_NAME": "AFFECTATIONS",
+      "COLUMN_NAME": "OPER",
+      "DATA_TYPE": "NUMBER",
+      "DATA_LENGTH": 22,
+      "DATA_PRECISION": null,
+      "DATA_SCALE": null
+    }
+  ],
+  "API_ACCESS": [
+    {
+      "TABLE_NAME": "API_ACCESS",
+      "COLUMN_NAME": "ID",
+      "DATA_TYPE": "NUMBER",
+      "DATA_LENGTH": 22,
+      "DATA_PRECISION": null,
+      "DATA_SCALE": 0
+    },
+    {
+      "TABLE_NAME": "API_ACCESS",
+      "COLUMN_NAME": "KEY",
+      "DATA_TYPE": "VARCHAR2",
+      "DATA_LENGTH": 40,
+      "DATA_PRECISION": null,
+      "DATA_SCALE": null
+    },
+    {
+      "TABLE_NAME": "API_ACCESS",
+      "COLUMN_NAME": "ALL_ACCESS",
+      "DATA_TYPE": "NUMBER",
+      "DATA_LENGTH": 22,
+      "DATA_PRECISION": null,
+      "DATA_SCALE": 0
+    },
+    {
+      "TABLE_NAME": "API_ACCESS",
+      "COLUMN_NAME": "CONTROLLER",
+      "DATA_TYPE": "VARCHAR2",
+      "DATA_LENGTH": 250,
+      "DATA_PRECISION": null,
+      "DATA_SCALE": null
+    },
+    {
+      "TABLE_NAME": "API_ACCESS",
+      "COLUMN_NAME": "DATE_CREATED",
+      "DATA_TYPE": "DATE",
+      "DATA_LENGTH": 7,
+      "DATA_PRECISION": null,
+      "DATA_SCALE": null
+    },
+    {
+      "TABLE_NAME": "API_ACCESS",
+      "COLUMN_NAME": "DATE_MODIFIED",
+      "DATA_TYPE": "DATE",
+      "DATA_LENGTH": 7,
+      "DATA_PRECISION": null,
+      "DATA_SCALE": null
+    }
+  ],
+  "API_KEYS": [
+    {
+      "TABLE_NAME": "API_KEYS",
+      "COLUMN_NAME": "ID",
+      "DATA_TYPE": "NUMBER",
+      "DATA_LENGTH": 22,
+      "DATA_PRECISION": null,
+      "DATA_SCALE": 0
+    },
+    {
+      "TABLE_NAME": "API_KEYS",
+      "COLUMN_NAME": "USER_ID",
+      "DATA_TYPE": "NUMBER",
+      "DATA_LENGTH": 22,
+      "DATA_PRECISION": null,
+      "DATA_SCALE": 0
+    },
+    {
+      "TABLE_NAME": "API_KEYS",
+      "COLUMN_NAME": "TAG",
+      "DATA_TYPE": "VARCHAR2",
+      "DATA_LENGTH": 100,
+      "DATA_PRECISION": null,
+      "DATA_SCALE": null
+    },
+    {
+      "TABLE_NAME": "API_KEYS",
+      "COLUMN_NAME": "SECRETS",
+      "DATA_TYPE": "VARCHAR2",
+      "DATA_LENGTH": 40,
+      "DATA_PRECISION": null,
+      "DATA_SCALE": null
+    },
+    {
+      "TABLE_NAME": "API_KEYS",
+      "COLUMN_NAME": "LEVELS",
+      "DATA_TYPE": "NUMBER",
+      "DATA_LENGTH": 22,
+      "DATA_PRECISION": null,
+      "DATA_SCALE": 0
+    },
+    {
+      "TABLE_NAME": "API_KEYS",
+      "COLUMN_NAME": "IGNORE_LIMITS",
+      "DATA_TYPE": "NUMBER",
+      "DATA_LENGTH": 22,
+      "DATA_PRECISION": null,
+      "DATA_SCALE": 0
+    },
+    {
+      "TABLE_NAME": "API_KEYS",
+      "COLUMN_NAME": "IS_PRIVATE_KEY",
+      "DATA_TYPE": "NUMBER",
+      "DATA_LENGTH": 22,
+      "DATA_PRECISION": null,
+      "DATA_SCALE": 0
+    },
+    {
+      "TABLE_NAME": "API_KEYS",
+      "COLUMN_NAME": "IP_ADDRESSES",
+      "DATA_TYPE": "VARCHAR2",
+      "DATA_LENGTH": 250,
+      "DATA_PRECISION": null,
+      "DATA_SCALE": null
+    },
+    {
+      "TABLE_NAME": "API_KEYS",
+      "COLUMN_NAME": "DATE_CREATED",
+      "DATA_TYPE": "DATE",
+      "DATA_LENGTH": 7,
+      "DATA_PRECISION": null,
+      "DATA_SCALE": null
+    }
+  ],
+  "API_KEYS_PROD": [
+    {
+      "TABLE_NAME": "API_KEYS_PROD",
+      "COLUMN_NAME": "ID",
+      "DATA_TYPE": "NUMBER",
+      "DATA_LENGTH": 22,
+      "DATA_PRECISION": null,
+      "DATA_SCALE": 0
+    },
+    {
+      "TABLE_NAME": "API_KEYS_PROD",
+      "COLUMN_NAME": "USER_ID",
+      "DATA_TYPE": "NUMBER",
+      "DATA_LENGTH": 22,
+      "DATA_PRECISION": null,
+      "DATA_SCALE": 0
+    },
+    {
+      "TABLE_NAME": "API_KEYS_PROD",
+      "COLUMN_NAME": "TAG",
+      "DATA_TYPE": "VARCHAR2",
+      "DATA_LENGTH": 150,
+      "DATA_PRECISION": null,
+      "DATA_SCALE": null
+    },
+    {
+      "TABLE_NAME": "API_KEYS_PROD",
+      "COLUMN_NAME": "SECRETS",
+      "DATA_TYPE": "VARCHAR2",
+      "DATA_LENGTH": 40,
+      "DATA_PRECISION": null,
+      "DATA_SCALE": null
+    },
+    {
+      "TABLE_NAME": "API_KEYS_PROD",
+      "COLUMN_NAME": "LEVELS",
+      "DATA_TYPE": "NUMBER",
+      "DATA_LENGTH": 22,
+      "DATA_PRECISION": null,
+      "DATA_SCALE": 0
+    },
+    {
+      "TABLE_NAME": "API_KEYS_PROD",
+      "COLUMN_NAME": "IGNORE_LIMITS",
+      "DATA_TYPE": "NUMBER",
+      "DATA_LENGTH": 22,
+      "DATA_PRECISION": null,
+      "DATA_SCALE": 0
+    },
+    {
+      "TABLE_NAME": "API_KEYS_PROD",
+      "COLUMN_NAME": "IS_PRIVATE_KEY",
+      "DATA_TYPE": "NUMBER",
+      "DATA_LENGTH": 22,
+      "DATA_PRECISION": null,
+      "DATA_SCALE": 0
+    },
+    {
+      "TABLE_NAME": "API_KEYS_PROD",
+      "COLUMN_NAME": "IP_ADDRESSES",
+      "DATA_TYPE": "VARCHAR2",
+      "DATA_LENGTH": 250,
+      "DATA_PRECISION": null,
+      "DATA_SCALE": null
+    },
+    {
+      "TABLE_NAME": "API_KEYS_PROD",
+      "COLUMN_NAME": "DATE_CREATED",
+      "DATA_TYPE": "DATE",
+      "DATA_LENGTH": 7,
+      "DATA_PRECISION": null,
+      "DATA_SCALE": null
+    }
+  ],
+  "API_LISTE": [
+    {
+      "TABLE_NAME": "API_LISTE",
+      "COLUMN_NAME": "ID",
+      "DATA_TYPE": "NUMBER",
+      "DATA_LENGTH": 22,
+      "DATA_PRECISION": null,
+      "DATA_SCALE": 0
+    },
+    {
+      "TABLE_NAME": "API_LISTE",
+      "COLUMN_NAME": "API_NOM",
+      "DATA_TYPE": "VARCHAR2",
+      "DATA_LENGTH": 200,
+      "DATA_PRECISION": null,
+      "DATA_SCALE": null
+    },
+    {
+      "TABLE_NAME": "API_LISTE",
+      "COLUMN_NAME": "API_DESC",
+      "DATA_TYPE": "VARCHAR2",
+      "DATA_LENGTH": 250,
+      "DATA_PRECISION": null,
+      "DATA_SCALE": null
+    },
+    {
+      "TABLE_NAME": "API_LISTE",
+      "COLUMN_NAME": "METHODE",
+      "DATA_TYPE": "VARCHAR2",
+      "DATA_LENGTH": 20,
+      "DATA_PRECISION": null,
+      "DATA_SCALE": null
+    },
+    {
+      "TABLE_NAME": "API_LISTE",
+      "COLUMN_NAME": "URL",
+      "DATA_TYPE": "VARCHAR2",
+      "DATA_LENGTH": 500,
+      "DATA_PRECISION": null,
+      "DATA_SCALE": null
+    },
+    {
+      "TABLE_NAME": "API_LISTE",
+      "COLUMN_NAME": "REPONSE",
+      "DATA_TYPE": "VARCHAR2",
+      "DATA_LENGTH": 30,
+      "DATA_PRECISION": null,
+      "DATA_SCALE": null
+    },
+    {
+      "TABLE_NAME": "API_LISTE",
+      "COLUMN_NAME": "INPUT_DATA",
+      "DATA_TYPE": "VARCHAR2",
+      "DATA_LENGTH": 4000,
+      "DATA_PRECISION": null,
+      "DATA_SCALE": null
+    },
+    {
+      "TABLE_NAME": "API_LISTE",
+      "COLUMN_NAME": "OUTPUT_DATA",
+      "DATA_TYPE": "VARCHAR2",
+      "DATA_LENGTH": 4000,
+      "DATA_PRECISION": null,
+      "DATA_SCALE": null
+    },
+    {
+      "TABLE_NAME": "API_LISTE",
+      "COLUMN_NAME": "INPUT_EX",
+      "DATA_TYPE": "VARCHAR2",
+      "DATA_LENGTH": 4000,
+      "DATA_PRECISION": null,
+      "DATA_SCALE": null
+    },
+    {
+      "TABLE_NAME": "API_LISTE",
+      "COLUMN_NAME": "OUTPUT_EX",
+      "DATA_TYPE": "VARCHAR2",
+      "DATA_LENGTH": 4000,
+      "DATA_PRECISION": null,
+      "DATA_SCALE": null
+    },
+    {
+      "TABLE_NAME": "API_LISTE",
+      "COLUMN_NAME": "API_INFOS",
+      "DATA_TYPE": "VARCHAR2",
+      "DATA_LENGTH": 4000,
+      "DATA_PRECISION": null,
+      "DATA_SCALE": null
+    },
+    {
+      "TABLE_NAME": "API_LISTE",
+      "COLUMN_NAME": "UNAUTHORIZED",
+      "DATA_TYPE": "VARCHAR2",
+      "DATA_LENGTH": 4000,
+      "DATA_PRECISION": null,
+      "DATA_SCALE": null
+    },
+    {
+      "TABLE_NAME": "API_LISTE",
+      "COLUMN_NAME": "FORBIDDEN",
+      "DATA_TYPE": "VARCHAR2",
+      "DATA_LENGTH": 4000,
+      "DATA_PRECISION": null,
+      "DATA_SCALE": null
+    },
+    {
+      "TABLE_NAME": "API_LISTE",
+      "COLUMN_NAME": "CATEGORIE",
+      "DATA_TYPE": "VARCHAR2",
+      "DATA_LENGTH": 200,
+      "DATA_PRECISION": null,
+      "DATA_SCALE": null
+    },
+    {
+      "TABLE_NAME": "API_LISTE",
+      "COLUMN_NAME": "CONTROLLER",
+      "DATA_TYPE": "VARCHAR2",
+      "DATA_LENGTH": 250,
+      "DATA_PRECISION": null,
+      "DATA_SCALE": null
+    }
+  ],
+  "API_MEMBERS": [
+    {
+      "TABLE_NAME": "API_MEMBERS",
+      "COLUMN_NAME": "USER_ID",
+      "DATA_TYPE": "NUMBER",
+      "DATA_LENGTH": 22,
+      "DATA_PRECISION": null,
+      "DATA_SCALE": 0
+    },
+    {
+      "TABLE_NAME": "API_MEMBERS",
+      "COLUMN_NAME": "NAME",
+      "DATA_TYPE": "VARCHAR2",
+      "DATA_LENGTH": 250,
+      "DATA_PRECISION": null,
+      "DATA_SCALE": null
+    },
+    {
+      "TABLE_NAME": "API_MEMBERS",
+      "COLUMN_NAME": "EMAIL",
+      "DATA_TYPE": "VARCHAR2",
+      "DATA_LENGTH": 100,
+      "DATA_PRECISION": null,
+      "DATA_SCALE": null
+    },
+    {
+      "TABLE_NAME": "API_MEMBERS",
+      "COLUMN_NAME": "KEY_ID",
+      "DATA_TYPE": "NUMBER",
+      "DATA_LENGTH": 22,
+      "DATA_PRECISION": 3,
+      "DATA_SCALE": 0
+    },
+    {
+      "TABLE_NAME": "API_MEMBERS",
+      "COLUMN_NAME": "API_ALLOW",
+      "DATA_TYPE": "NVARCHAR2",
+      "DATA_LENGTH": 2000,
+      "DATA_PRECISION": null,
+      "DATA_SCALE": null
+    }
+  ],
+  "APPS_ADMIN": [
+    {
+      "TABLE_NAME": "APPS_ADMIN",
+      "COLUMN_NAME": "ID",
+      "DATA_TYPE": "NUMBER",
+      "DATA_LENGTH": 22,
+      "DATA_PRECISION": null,
+      "DATA_SCALE": null
+    },
+    {
+      "TABLE_NAME": "APPS_ADMIN",
+      "COLUMN_NAME": "NOM",
+      "DATA_TYPE": "VARCHAR2",
+      "DATA_LENGTH": 100,
+      "DATA_PRECISION": null,
+      "DATA_SCALE": null
+    },
+    {
+      "TABLE_NAME": "APPS_ADMIN",
+      "COLUMN_NAME": "SERVICE",
+      "DATA_TYPE": "VARCHAR2",
+      "DATA_LENGTH": 150,
+      "DATA_PRECISION": null,
+      "DATA_SCALE": null
+    },
+    {
+      "TABLE_NAME": "APPS_ADMIN",
+      "COLUMN_NAME": "CD_BUR",
+      "DATA_TYPE": "VARCHAR2",
+      "DATA_LENGTH": 50,
+      "DATA_PRECISION": null,
+      "DATA_SCALE": null
+    },
+    {
+      "TABLE_NAME": "APPS_ADMIN",
+      "COLUMN_NAME": "EMAIL",
+      "DATA_TYPE": "VARCHAR2",
+      "DATA_LENGTH": 100,
+      "DATA_PRECISION": null,
+      "DATA_SCALE": null
+    },
+    {
+      "TABLE_NAME": "APPS_ADMIN",
+      "COLUMN_NAME": "TEL",
+      "DATA_TYPE": "VARCHAR2",
+      "DATA_LENGTH": 20,
+      "DATA_PRECISION": null,
+      "DATA_SCALE": null
+    },
+    {
+      "TABLE_NAME": "APPS_ADMIN",
+      "COLUMN_NAME": "DESCRIPTION",
+      "DATA_TYPE": "VARCHAR2",
+      "DATA_LENGTH": 500,
+      "DATA_PRECISION": null,
+      "DATA_SCALE": null
+    },
+    {
+      "TABLE_NAME": "APPS_ADMIN",
+      "COLUMN_NAME": "TYPE",
+      "DATA_TYPE": "VARCHAR2",
+      "DATA_LENGTH": 20,
+      "DATA_PRECISION": null,
+      "DATA_SCALE": null
+    },
+    {
+      "TABLE_NAME": "APPS_ADMIN",
+      "COLUMN_NAME": "UXID",
+      "DATA_TYPE": "VARCHAR2",
+      "DATA_LENGTH": 100,
+      "DATA_PRECISION": null,
+      "DATA_SCALE": null
+    },
+    {
+      "TABLE_NAME": "APPS_ADMIN",
+      "COLUMN_NAME": "CREATED_AT",
+      "DATA_TYPE": "DATE",
+      "DATA_LENGTH": 7,
+      "DATA_PRECISION": null,
+      "DATA_SCALE": null
+    },
+    {
+      "TABLE_NAME": "APPS_ADMIN",
+      "COLUMN_NAME": "UPDATED_AT",
+      "DATA_TYPE": "DATE",
+      "DATA_LENGTH": 7,
+      "DATA_PRECISION": null,
+      "DATA_SCALE": null
+    },
+    {
+      "TABLE_NAME": "APPS_ADMIN",
+      "COLUMN_NAME": "IS_ACTIVE",
+      "DATA_TYPE": "NUMBER",
+      "DATA_LENGTH": 22,
+      "DATA_PRECISION": null,
+      "DATA_SCALE": 0
+    }
+  ],
+  "APPS_INFO": [
+    {
+      "TABLE_NAME": "APPS_INFO",
+      "COLUMN_NAME": "USERNAME",
+      "DATA_TYPE": "VARCHAR2",
+      "DATA_LENGTH": 100,
+      "DATA_PRECISION": null,
+      "DATA_SCALE": null
+    },
+    {
+      "TABLE_NAME": "APPS_INFO",
+      "COLUMN_NAME": "CD_APP",
+      "DATA_TYPE": "VARCHAR2",
+      "DATA_LENGTH": 20,
+      "DATA_PRECISION": null,
+      "DATA_SCALE": null
+    },
+    {
+      "TABLE_NAME": "APPS_INFO",
+      "COLUMN_NAME": "SLUG",
+      "DATA_TYPE": "VARCHAR2",
+      "DATA_LENGTH": 70,
+      "DATA_PRECISION": null,
+      "DATA_SCALE": null
+    },
+    {
+      "TABLE_NAME": "APPS_INFO",
+      "COLUMN_NAME": "URL",
+      "DATA_TYPE": "VARCHAR2",
+      "DATA_LENGTH": 250,
+      "DATA_PRECISION": null,
+      "DATA_SCALE": null
+    },
+    {
+      "TABLE_NAME": "APPS_INFO",
+      "COLUMN_NAME": "STATUS",
+      "DATA_TYPE": "VARCHAR2",
+      "DATA_LENGTH": 50,
+      "DATA_PRECISION": null,
+      "DATA_SCALE": null
+    },
+    {
+      "TABLE_NAME": "APPS_INFO",
+      "COLUMN_NAME": "LOGO",
+      "DATA_TYPE": "VARCHAR2",
+      "DATA_LENGTH": 100,
+      "DATA_PRECISION": null,
+      "DATA_SCALE": null
+    },
+    {
+      "TABLE_NAME": "APPS_INFO",
+      "COLUMN_NAME": "APP_NOM",
+      "DATA_TYPE": "VARCHAR2",
+      "DATA_LENGTH": 100,
+      "DATA_PRECISION": null,
+      "DATA_SCALE": null
+    },
+    {
+      "TABLE_NAME": "APPS_INFO",
+      "COLUMN_NAME": "DESCRIPTION",
+      "DATA_TYPE": "VARCHAR2",
+      "DATA_LENGTH": 500,
+      "DATA_PRECISION": null,
+      "DATA_SCALE": null
+    }
+  ],
+  "APP_LIST": [
+    {
+      "TABLE_NAME": "APP_LIST",
+      "COLUMN_NAME": "ID",
+      "DATA_TYPE": "NUMBER",
+      "DATA_LENGTH": 22,
+      "DATA_PRECISION": null,
+      "DATA_SCALE": null
+    },
+    {
+      "TABLE_NAME": "APP_LIST",
+      "COLUMN_NAME": "APP_NOM",
+      "DATA_TYPE": "VARCHAR2",
+      "DATA_LENGTH": 100,
+      "DATA_PRECISION": null,
+      "DATA_SCALE": null
+    },
+    {
+      "TABLE_NAME": "APP_LIST",
+      "COLUMN_NAME": "DESCRIPTION",
+      "DATA_TYPE": "VARCHAR2",
+      "DATA_LENGTH": 500,
+      "DATA_PRECISION": null,
+      "DATA_SCALE": null
+    },
+    {
+      "TABLE_NAME": "APP_LIST",
+      "COLUMN_NAME": "SLUG",
+      "DATA_TYPE": "VARCHAR2",
+      "DATA_LENGTH": 70,
+      "DATA_PRECISION": null,
+      "DATA_SCALE": null
+    },
+    {
+      "TABLE_NAME": "APP_LIST",
+      "COLUMN_NAME": "STATUS",
+      "DATA_TYPE": "VARCHAR2",
+      "DATA_LENGTH": 50,
+      "DATA_PRECISION": null,
+      "DATA_SCALE": null
+    },
+    {
+      "TABLE_NAME": "APP_LIST",
+      "COLUMN_NAME": "LOGO",
+      "DATA_TYPE": "VARCHAR2",
+      "DATA_LENGTH": 100,
+      "DATA_PRECISION": null,
+      "DATA_SCALE": null
+    },
+    {
+      "TABLE_NAME": "APP_LIST",
+      "COLUMN_NAME": "URL",
+      "DATA_TYPE": "VARCHAR2",
+      "DATA_LENGTH": 250,
+      "DATA_PRECISION": null,
+      "DATA_SCALE": null
+    },
+    {
+      "TABLE_NAME": "APP_LIST",
+      "COLUMN_NAME": "CD_APP",
+      "DATA_TYPE": "VARCHAR2",
+      "DATA_LENGTH": 20,
+      "DATA_PRECISION": null,
+      "DATA_SCALE": null
+    },
+    {
+      "TABLE_NAME": "APP_LIST",
+      "COLUMN_NAME": "DEFAULT_APP",
+      "DATA_TYPE": "VARCHAR2",
+      "DATA_LENGTH": 20,
+      "DATA_PRECISION": null,
+      "DATA_SCALE": null
+    },
+    {
+      "TABLE_NAME": "APP_LIST",
+      "COLUMN_NAME": "DEFAULT_PRIV",
+      "DATA_TYPE": "VARCHAR2",
+      "DATA_LENGTH": 20,
+      "DATA_PRECISION": null,
+      "DATA_SCALE": null
+    },
+    {
+      "TABLE_NAME": "APP_LIST",
+      "COLUMN_NAME": "CREATED_AT",
+      "DATA_TYPE": "DATE",
+      "DATA_LENGTH": 7,
+      "DATA_PRECISION": null,
+      "DATA_SCALE": null
+    },
+    {
+      "TABLE_NAME": "APP_LIST",
+      "COLUMN_NAME": "UPDATED_AT",
+      "DATA_TYPE": "DATE",
+      "DATA_LENGTH": 7,
+      "DATA_PRECISION": null,
+      "DATA_SCALE": null
+    },
+    {
+      "TABLE_NAME": "APP_LIST",
+      "COLUMN_NAME": "UXID",
+      "DATA_TYPE": "VARCHAR2",
+      "DATA_LENGTH": 100,
+      "DATA_PRECISION": null,
+      "DATA_SCALE": null
+    }
+  ],
+  "APP_PRIVILEGE": [
+    {
+      "TABLE_NAME": "APP_PRIVILEGE",
+      "COLUMN_NAME": "ID",
+      "DATA_TYPE": "NUMBER",
+      "DATA_LENGTH": 22,
+      "DATA_PRECISION": null,
+      "DATA_SCALE": null
+    },
+    {
+      "TABLE_NAME": "APP_PRIVILEGE",
+      "COLUMN_NAME": "CD_APP",
+      "DATA_TYPE": "VARCHAR2",
+      "DATA_LENGTH": 20,
+      "DATA_PRECISION": null,
+      "DATA_SCALE": null
+    },
+    {
+      "TABLE_NAME": "APP_PRIVILEGE",
+      "COLUMN_NAME": "PRIVILEGE",
+      "DATA_TYPE": "VARCHAR2",
+      "DATA_LENGTH": 150,
+      "DATA_PRECISION": null,
+      "DATA_SCALE": null
+    },
+    {
+      "TABLE_NAME": "APP_PRIVILEGE",
+      "COLUMN_NAME": "DESCRIPTION",
+      "DATA_TYPE": "VARCHAR2",
+      "DATA_LENGTH": 500,
+      "DATA_PRECISION": null,
+      "DATA_SCALE": null
+    },
+    {
+      "TABLE_NAME": "APP_PRIVILEGE",
+      "COLUMN_NAME": "PRIV_TYPE",
+      "DATA_TYPE": "VARCHAR2",
+      "DATA_LENGTH": 50,
+      "DATA_PRECISION": null,
+      "DATA_SCALE": null
+    },
+    {
+      "TABLE_NAME": "APP_PRIVILEGE",
+      "COLUMN_NAME": "NIVEAU_ROLE",
+      "DATA_TYPE": "NUMBER",
+      "DATA_LENGTH": 22,
+      "DATA_PRECISION": null,
+      "DATA_SCALE": null
+    },
+    {
+      "TABLE_NAME": "APP_PRIVILEGE",
+      "COLUMN_NAME": "NIVEAU_ACCES",
+      "DATA_TYPE": "NUMBER",
+      "DATA_LENGTH": 22,
+      "DATA_PRECISION": null,
+      "DATA_SCALE": null
+    },
+    {
+      "TABLE_NAME": "APP_PRIVILEGE",
+      "COLUMN_NAME": "LEVEL1",
+      "DATA_TYPE": "NUMBER",
+      "DATA_LENGTH": 22,
+      "DATA_PRECISION": null,
+      "DATA_SCALE": null
+    },
+    {
+      "TABLE_NAME": "APP_PRIVILEGE",
+      "COLUMN_NAME": "LEVEL2",
+      "DATA_TYPE": "NUMBER",
+      "DATA_LENGTH": 22,
+      "DATA_PRECISION": null,
+      "DATA_SCALE": null
+    },
+    {
+      "TABLE_NAME": "APP_PRIVILEGE",
+      "COLUMN_NAME": "UXID",
+      "DATA_TYPE": "VARCHAR2",
+      "DATA_LENGTH": 100,
+      "DATA_PRECISION": null,
+      "DATA_SCALE": null
+    },
+    {
+      "TABLE_NAME": "APP_PRIVILEGE",
+      "COLUMN_NAME": "CREATED_AT",
+      "DATA_TYPE": "DATE",
+      "DATA_LENGTH": 7,
+      "DATA_PRECISION": null,
+      "DATA_SCALE": null
+    },
+    {
+      "TABLE_NAME": "APP_PRIVILEGE",
+      "COLUMN_NAME": "UPDATED_AT",
+      "DATA_TYPE": "DATE",
+      "DATA_LENGTH": 7,
+      "DATA_PRECISION": null,
+      "DATA_SCALE": null
+    }
+  ],
+  "DIRECTIONS": [
+    {
+      "TABLE_NAME": "DIRECTIONS",
+      "COLUMN_NAME": "ID",
+      "DATA_TYPE": "NUMBER",
+      "DATA_LENGTH": 22,
+      "DATA_PRECISION": null,
+      "DATA_SCALE": null
+    },
+    {
+      "TABLE_NAME": "DIRECTIONS",
+      "COLUMN_NAME": "NOM",
+      "DATA_TYPE": "VARCHAR2",
+      "DATA_LENGTH": 100,
+      "DATA_PRECISION": null,
+      "DATA_SCALE": null
+    },
+    {
+      "TABLE_NAME": "DIRECTIONS",
+      "COLUMN_NAME": "ABREV",
+      "DATA_TYPE": "VARCHAR2",
+      "DATA_LENGTH": 20,
+      "DATA_PRECISION": null,
+      "DATA_SCALE": null
+    },
+    {
+      "TABLE_NAME": "DIRECTIONS",
+      "COLUMN_NAME": "CODE_DIR",
+      "DATA_TYPE": "NUMBER",
+      "DATA_LENGTH": 22,
+      "DATA_PRECISION": null,
+      "DATA_SCALE": null
+    },
+    {
+      "TABLE_NAME": "DIRECTIONS",
+      "COLUMN_NAME": "UXID",
+      "DATA_TYPE": "VARCHAR2",
+      "DATA_LENGTH": 100,
+      "DATA_PRECISION": null,
+      "DATA_SCALE": null
+    },
+    {
+      "TABLE_NAME": "DIRECTIONS",
+      "COLUMN_NAME": "CREATED_AT",
+      "DATA_TYPE": "DATE",
+      "DATA_LENGTH": 7,
+      "DATA_PRECISION": null,
+      "DATA_SCALE": null
+    },
+    {
+      "TABLE_NAME": "DIRECTIONS",
+      "COLUMN_NAME": "UPDATED_AT",
+      "DATA_TYPE": "DATE",
+      "DATA_LENGTH": 7,
+      "DATA_PRECISION": null,
+      "DATA_SCALE": null
+    },
+    {
+      "TABLE_NAME": "DIRECTIONS",
+      "COLUMN_NAME": "IS_ACTIVE",
+      "DATA_TYPE": "NUMBER",
+      "DATA_LENGTH": 22,
+      "DATA_PRECISION": null,
+      "DATA_SCALE": 0
+    }
+  ],
+  "DIRECTIONS_T": [
+    {
+      "TABLE_NAME": "DIRECTIONS_T",
+      "COLUMN_NAME": "ID",
+      "DATA_TYPE": "NUMBER",
+      "DATA_LENGTH": 22,
+      "DATA_PRECISION": null,
+      "DATA_SCALE": null
+    },
+    {
+      "TABLE_NAME": "DIRECTIONS_T",
+      "COLUMN_NAME": "NOM",
+      "DATA_TYPE": "VARCHAR2",
+      "DATA_LENGTH": 100,
+      "DATA_PRECISION": null,
+      "DATA_SCALE": null
+    },
+    {
+      "TABLE_NAME": "DIRECTIONS_T",
+      "COLUMN_NAME": "ABREV",
+      "DATA_TYPE": "VARCHAR2",
+      "DATA_LENGTH": 20,
+      "DATA_PRECISION": null,
+      "DATA_SCALE": null
+    },
+    {
+      "TABLE_NAME": "DIRECTIONS_T",
+      "COLUMN_NAME": "CODE_DIR",
+      "DATA_TYPE": "NUMBER",
+      "DATA_LENGTH": 22,
+      "DATA_PRECISION": null,
+      "DATA_SCALE": null
+    },
+    {
+      "TABLE_NAME": "DIRECTIONS_T",
+      "COLUMN_NAME": "DIR_REF",
+      "DATA_TYPE": "VARCHAR2",
+      "DATA_LENGTH": 20,
+      "DATA_PRECISION": null,
+      "DATA_SCALE": null
+    },
+    {
+      "TABLE_NAME": "DIRECTIONS_T",
+      "COLUMN_NAME": "DIR_CODE",
+      "DATA_TYPE": "VARCHAR2",
+      "DATA_LENGTH": 50,
+      "DATA_PRECISION": null,
+      "DATA_SCALE": null
+    }
+  ],
+  "DIR_CORRESP": [
+    {
+      "TABLE_NAME": "DIR_CORRESP",
+      "COLUMN_NAME": "ID",
+      "DATA_TYPE": "NUMBER",
+      "DATA_LENGTH": 22,
+      "DATA_PRECISION": null,
+      "DATA_SCALE": null
+    },
+    {
+      "TABLE_NAME": "DIR_CORRESP",
+      "COLUMN_NAME": "DIR_REF",
+      "DATA_TYPE": "VARCHAR2",
+      "DATA_LENGTH": 20,
+      "DATA_PRECISION": null,
+      "DATA_SCALE": null
+    },
+    {
+      "TABLE_NAME": "DIR_CORRESP",
+      "COLUMN_NAME": "DIR_CODE",
+      "DATA_TYPE": "VARCHAR2",
+      "DATA_LENGTH": 50,
+      "DATA_PRECISION": null,
+      "DATA_SCALE": null
+    }
+  ],
+  "GRH_USERS": [
+    {
+      "TABLE_NAME": "GRH_USERS",
+      "COLUMN_NAME": "ID",
+      "DATA_TYPE": "NUMBER",
+      "DATA_LENGTH": 22,
+      "DATA_PRECISION": null,
+      "DATA_SCALE": 0
+    },
+    {
+      "TABLE_NAME": "GRH_USERS",
+      "COLUMN_NAME": "MATRICULE",
+      "DATA_TYPE": "NUMBER",
+      "DATA_LENGTH": 22,
+      "DATA_PRECISION": null,
+      "DATA_SCALE": null
+    },
+    {
+      "TABLE_NAME": "GRH_USERS",
+      "COLUMN_NAME": "EMAIL",
+      "DATA_TYPE": "VARCHAR2",
+      "DATA_LENGTH": 100,
+      "DATA_PRECISION": null,
+      "DATA_SCALE": null
+    },
+    {
+      "TABLE_NAME": "GRH_USERS",
+      "COLUMN_NAME": "CD_ACCESS",
+      "DATA_TYPE": "VARCHAR2",
+      "DATA_LENGTH": 500,
+      "DATA_PRECISION": null,
+      "DATA_SCALE": null
+    },
+    {
+      "TABLE_NAME": "GRH_USERS",
+      "COLUMN_NAME": "SESS_TOKEN",
+      "DATA_TYPE": "VARCHAR2",
+      "DATA_LENGTH": 500,
+      "DATA_PRECISION": null,
+      "DATA_SCALE": null
+    },
+    {
+      "TABLE_NAME": "GRH_USERS",
+      "COLUMN_NAME": "RES_TOKEN",
+      "DATA_TYPE": "VARCHAR2",
+      "DATA_LENGTH": 500,
+      "DATA_PRECISION": null,
+      "DATA_SCALE": null
+    },
+    {
+      "TABLE_NAME": "GRH_USERS",
+      "COLUMN_NAME": "ACT_TOKEN",
+      "DATA_TYPE": "VARCHAR2",
+      "DATA_LENGTH": 500,
+      "DATA_PRECISION": null,
+      "DATA_SCALE": null
+    },
+    {
+      "TABLE_NAME": "GRH_USERS",
+      "COLUMN_NAME": "DATE_ADD",
+      "DATA_TYPE": "DATE",
+      "DATA_LENGTH": 7,
+      "DATA_PRECISION": null,
+      "DATA_SCALE": null
+    },
+    {
+      "TABLE_NAME": "GRH_USERS",
+      "COLUMN_NAME": "STATUT",
+      "DATA_TYPE": "VARCHAR2",
+      "DATA_LENGTH": 20,
+      "DATA_PRECISION": null,
+      "DATA_SCALE": null
+    },
+    {
+      "TABLE_NAME": "GRH_USERS",
+      "COLUMN_NAME": "USER_TYPE",
+      "DATA_TYPE": "VARCHAR2",
+      "DATA_LENGTH": 50,
+      "DATA_PRECISION": null,
+      "DATA_SCALE": null
+    },
+    {
+      "TABLE_NAME": "GRH_USERS",
+      "COLUMN_NAME": "USR_TOKEN",
+      "DATA_TYPE": "VARCHAR2",
+      "DATA_LENGTH": 500,
+      "DATA_PRECISION": null,
+      "DATA_SCALE": null
+    },
+    {
+      "TABLE_NAME": "GRH_USERS",
+      "COLUMN_NAME": "USERNAME",
+      "DATA_TYPE": "VARCHAR2",
+      "DATA_LENGTH": 100,
+      "DATA_PRECISION": null,
+      "DATA_SCALE": null
+    },
+    {
+      "TABLE_NAME": "GRH_USERS",
+      "COLUMN_NAME": "DOMAINE",
+      "DATA_TYPE": "VARCHAR2",
+      "DATA_LENGTH": 20,
+      "DATA_PRECISION": null,
+      "DATA_SCALE": null
+    },
+    {
+      "TABLE_NAME": "GRH_USERS",
+      "COLUMN_NAME": "APP_VALID",
+      "DATA_TYPE": "VARCHAR2",
+      "DATA_LENGTH": 20,
+      "DATA_PRECISION": null,
+      "DATA_SCALE": null
+    },
+    {
+      "TABLE_NAME": "GRH_USERS",
+      "COLUMN_NAME": "UPDATED_AT",
+      "DATA_TYPE": "DATE",
+      "DATA_LENGTH": 7,
+      "DATA_PRECISION": null,
+      "DATA_SCALE": null
+    },
+    {
+      "TABLE_NAME": "GRH_USERS",
+      "COLUMN_NAME": "UXID",
+      "DATA_TYPE": "VARCHAR2",
+      "DATA_LENGTH": 100,
+      "DATA_PRECISION": null,
+      "DATA_SCALE": null
+    }
+  ],
+  "PERSONNEL": [
+    {
+      "TABLE_NAME": "PERSONNEL",
+      "COLUMN_NAME": "ID",
+      "DATA_TYPE": "NUMBER",
+      "DATA_LENGTH": 22,
+      "DATA_PRECISION": null,
+      "DATA_SCALE": 0
+    },
+    {
+      "TABLE_NAME": "PERSONNEL",
+      "COLUMN_NAME": "MATRICULE",
+      "DATA_TYPE": "NUMBER",
+      "DATA_LENGTH": 22,
+      "DATA_PRECISION": null,
+      "DATA_SCALE": null
+    },
+    {
+      "TABLE_NAME": "PERSONNEL",
+      "COLUMN_NAME": "NOM",
+      "DATA_TYPE": "VARCHAR2",
+      "DATA_LENGTH": 100,
+      "DATA_PRECISION": null,
+      "DATA_SCALE": null
+    },
+    {
+      "TABLE_NAME": "PERSONNEL",
+      "COLUMN_NAME": "PRENOM",
+      "DATA_TYPE": "VARCHAR2",
+      "DATA_LENGTH": 100,
+      "DATA_PRECISION": null,
+      "DATA_SCALE": null
+    },
+    {
+      "TABLE_NAME": "PERSONNEL",
+      "COLUMN_NAME": "DIRECTION",
+      "DATA_TYPE": "VARCHAR2",
+      "DATA_LENGTH": 50,
+      "DATA_PRECISION": null,
+      "DATA_SCALE": null
+    },
+    {
+      "TABLE_NAME": "PERSONNEL",
+      "COLUMN_NAME": "SERVICE",
+      "DATA_TYPE": "VARCHAR2",
+      "DATA_LENGTH": 50,
+      "DATA_PRECISION": null,
+      "DATA_SCALE": null
+    },
+    {
+      "TABLE_NAME": "PERSONNEL",
+      "COLUMN_NAME": "CD_BUR",
+      "DATA_TYPE": "VARCHAR2",
+      "DATA_LENGTH": 20,
+      "DATA_PRECISION": null,
+      "DATA_SCALE": null
+    },
+    {
+      "TABLE_NAME": "PERSONNEL",
+      "COLUMN_NAME": "CIN",
+      "DATA_TYPE": "VARCHAR2",
+      "DATA_LENGTH": 20,
+      "DATA_PRECISION": null,
+      "DATA_SCALE": null
+    },
+    {
+      "TABLE_NAME": "PERSONNEL",
+      "COLUMN_NAME": "FONCTION",
+      "DATA_TYPE": "VARCHAR2",
+      "DATA_LENGTH": 100,
+      "DATA_PRECISION": null,
+      "DATA_SCALE": null
+    },
+    {
+      "TABLE_NAME": "PERSONNEL",
+      "COLUMN_NAME": "BUREAU",
+      "DATA_TYPE": "VARCHAR2",
+      "DATA_LENGTH": 100,
+      "DATA_PRECISION": null,
+      "DATA_SCALE": null
+    },
+    {
+      "TABLE_NAME": "PERSONNEL",
+      "COLUMN_NAME": "PHOTO",
+      "DATA_TYPE": "VARCHAR2",
+      "DATA_LENGTH": 100,
+      "DATA_PRECISION": null,
+      "DATA_SCALE": null
+    },
+    {
+      "TABLE_NAME": "PERSONNEL",
+      "COLUMN_NAME": "FIC_ID",
+      "DATA_TYPE": "VARCHAR2",
+      "DATA_LENGTH": 100,
+      "DATA_PRECISION": null,
+      "DATA_SCALE": null
+    },
+    {
+      "TABLE_NAME": "PERSONNEL",
+      "COLUMN_NAME": "CODE_X",
+      "DATA_TYPE": "VARCHAR2",
+      "DATA_LENGTH": 100,
+      "DATA_PRECISION": null,
+      "DATA_SCALE": null
+    },
+    {
+      "TABLE_NAME": "PERSONNEL",
+      "COLUMN_NAME": "ADRESSE",
+      "DATA_TYPE": "VARCHAR2",
+      "DATA_LENGTH": 500,
+      "DATA_PRECISION": null,
+      "DATA_SCALE": null
+    },
+    {
+      "TABLE_NAME": "PERSONNEL",
+      "COLUMN_NAME": "ADD_DATE",
+      "DATA_TYPE": "DATE",
+      "DATA_LENGTH": 7,
+      "DATA_PRECISION": null,
+      "DATA_SCALE": null
+    },
+    {
+      "TABLE_NAME": "PERSONNEL",
+      "COLUMN_NAME": "BIRTH_DATE",
+      "DATA_TYPE": "DATE",
+      "DATA_LENGTH": 7,
+      "DATA_PRECISION": null,
+      "DATA_SCALE": null
+    },
+    {
+      "TABLE_NAME": "PERSONNEL",
+      "COLUMN_NAME": "EMAIL",
+      "DATA_TYPE": "VARCHAR2",
+      "DATA_LENGTH": 100,
+      "DATA_PRECISION": null,
+      "DATA_SCALE": null
+    },
+    {
+      "TABLE_NAME": "PERSONNEL",
+      "COLUMN_NAME": "TEL",
+      "DATA_TYPE": "VARCHAR2",
+      "DATA_LENGTH": 20,
+      "DATA_PRECISION": null,
+      "DATA_SCALE": null
+    },
+    {
+      "TABLE_NAME": "PERSONNEL",
+      "COLUMN_NAME": "FONC_STATUT",
+      "DATA_TYPE": "VARCHAR2",
+      "DATA_LENGTH": 100,
+      "DATA_PRECISION": null,
+      "DATA_SCALE": null
+    },
+    {
+      "TABLE_NAME": "PERSONNEL",
+      "COLUMN_NAME": "STAT_MATRI",
+      "DATA_TYPE": "NVARCHAR2",
+      "DATA_LENGTH": 100,
+      "DATA_PRECISION": null,
+      "DATA_SCALE": null
+    },
+    {
+      "TABLE_NAME": "PERSONNEL",
+      "COLUMN_NAME": "ETABLISSEMENT",
+      "DATA_TYPE": "VARCHAR2",
+      "DATA_LENGTH": 100,
+      "DATA_PRECISION": null,
+      "DATA_SCALE": null
+    },
+    {
+      "TABLE_NAME": "PERSONNEL",
+      "COLUMN_NAME": "GRADE",
+      "DATA_TYPE": "VARCHAR2",
+      "DATA_LENGTH": 50,
+      "DATA_PRECISION": null,
+      "DATA_SCALE": null
+    },
+    {
+      "TABLE_NAME": "PERSONNEL",
+      "COLUMN_NAME": "USERNAME",
+      "DATA_TYPE": "VARCHAR2",
+      "DATA_LENGTH": 100,
+      "DATA_PRECISION": null,
+      "DATA_SCALE": null
+    },
+    {
+      "TABLE_NAME": "PERSONNEL",
+      "COLUMN_NAME": "UPDATED_AT",
+      "DATA_TYPE": "DATE",
+      "DATA_LENGTH": 7,
+      "DATA_PRECISION": null,
+      "DATA_SCALE": null
+    },
+    {
+      "TABLE_NAME": "PERSONNEL",
+      "COLUMN_NAME": "UXID",
+      "DATA_TYPE": "VARCHAR2",
+      "DATA_LENGTH": 100,
+      "DATA_PRECISION": null,
+      "DATA_SCALE": null
+    },
+    {
+      "TABLE_NAME": "PERSONNEL",
+      "COLUMN_NAME": "USER_UXID",
+      "DATA_TYPE": "VARCHAR2",
+      "DATA_LENGTH": 100,
+      "DATA_PRECISION": null,
+      "DATA_SCALE": null
+    }
+  ],
+  "PERSONNEL_T": [
+    {
+      "TABLE_NAME": "PERSONNEL_T",
+      "COLUMN_NAME": "ID",
+      "DATA_TYPE": "NUMBER",
+      "DATA_LENGTH": 22,
+      "DATA_PRECISION": null,
+      "DATA_SCALE": 0
+    },
+    {
+      "TABLE_NAME": "PERSONNEL_T",
+      "COLUMN_NAME": "MATRICULE",
+      "DATA_TYPE": "NUMBER",
+      "DATA_LENGTH": 22,
+      "DATA_PRECISION": null,
+      "DATA_SCALE": null
+    },
+    {
+      "TABLE_NAME": "PERSONNEL_T",
+      "COLUMN_NAME": "NOM",
+      "DATA_TYPE": "VARCHAR2",
+      "DATA_LENGTH": 100,
+      "DATA_PRECISION": null,
+      "DATA_SCALE": null
+    },
+    {
+      "TABLE_NAME": "PERSONNEL_T",
+      "COLUMN_NAME": "PRENOM",
+      "DATA_TYPE": "VARCHAR2",
+      "DATA_LENGTH": 100,
+      "DATA_PRECISION": null,
+      "DATA_SCALE": null
+    },
+    {
+      "TABLE_NAME": "PERSONNEL_T",
+      "COLUMN_NAME": "DIRECTION",
+      "DATA_TYPE": "VARCHAR2",
+      "DATA_LENGTH": 50,
+      "DATA_PRECISION": null,
+      "DATA_SCALE": null
+    },
+    {
+      "TABLE_NAME": "PERSONNEL_T",
+      "COLUMN_NAME": "SERVICE",
+      "DATA_TYPE": "VARCHAR2",
+      "DATA_LENGTH": 50,
+      "DATA_PRECISION": null,
+      "DATA_SCALE": null
+    },
+    {
+      "TABLE_NAME": "PERSONNEL_T",
+      "COLUMN_NAME": "CD_BUR",
+      "DATA_TYPE": "VARCHAR2",
+      "DATA_LENGTH": 20,
+      "DATA_PRECISION": null,
+      "DATA_SCALE": null
+    },
+    {
+      "TABLE_NAME": "PERSONNEL_T",
+      "COLUMN_NAME": "CIN",
+      "DATA_TYPE": "VARCHAR2",
+      "DATA_LENGTH": 20,
+      "DATA_PRECISION": null,
+      "DATA_SCALE": null
+    },
+    {
+      "TABLE_NAME": "PERSONNEL_T",
+      "COLUMN_NAME": "FONCTION",
+      "DATA_TYPE": "VARCHAR2",
+      "DATA_LENGTH": 100,
+      "DATA_PRECISION": null,
+      "DATA_SCALE": null
+    },
+    {
+      "TABLE_NAME": "PERSONNEL_T",
+      "COLUMN_NAME": "BUREAU",
+      "DATA_TYPE": "VARCHAR2",
+      "DATA_LENGTH": 100,
+      "DATA_PRECISION": null,
+      "DATA_SCALE": null
+    },
+    {
+      "TABLE_NAME": "PERSONNEL_T",
+      "COLUMN_NAME": "PHOTO",
+      "DATA_TYPE": "VARCHAR2",
+      "DATA_LENGTH": 100,
+      "DATA_PRECISION": null,
+      "DATA_SCALE": null
+    },
+    {
+      "TABLE_NAME": "PERSONNEL_T",
+      "COLUMN_NAME": "FIC_ID",
+      "DATA_TYPE": "VARCHAR2",
+      "DATA_LENGTH": 100,
+      "DATA_PRECISION": null,
+      "DATA_SCALE": null
+    },
+    {
+      "TABLE_NAME": "PERSONNEL_T",
+      "COLUMN_NAME": "CODE_X",
+      "DATA_TYPE": "VARCHAR2",
+      "DATA_LENGTH": 100,
+      "DATA_PRECISION": null,
+      "DATA_SCALE": null
+    },
+    {
+      "TABLE_NAME": "PERSONNEL_T",
+      "COLUMN_NAME": "ADRESSE",
+      "DATA_TYPE": "VARCHAR2",
+      "DATA_LENGTH": 500,
+      "DATA_PRECISION": null,
+      "DATA_SCALE": null
+    },
+    {
+      "TABLE_NAME": "PERSONNEL_T",
+      "COLUMN_NAME": "ADD_DATE",
+      "DATA_TYPE": "DATE",
+      "DATA_LENGTH": 7,
+      "DATA_PRECISION": null,
+      "DATA_SCALE": null
+    },
+    {
+      "TABLE_NAME": "PERSONNEL_T",
+      "COLUMN_NAME": "BIRTH_DATE",
+      "DATA_TYPE": "DATE",
+      "DATA_LENGTH": 7,
+      "DATA_PRECISION": null,
+      "DATA_SCALE": null
+    },
+    {
+      "TABLE_NAME": "PERSONNEL_T",
+      "COLUMN_NAME": "EMAIL",
+      "DATA_TYPE": "VARCHAR2",
+      "DATA_LENGTH": 100,
+      "DATA_PRECISION": null,
+      "DATA_SCALE": null
+    },
+    {
+      "TABLE_NAME": "PERSONNEL_T",
+      "COLUMN_NAME": "TEL",
+      "DATA_TYPE": "VARCHAR2",
+      "DATA_LENGTH": 20,
+      "DATA_PRECISION": null,
+      "DATA_SCALE": null
+    },
+    {
+      "TABLE_NAME": "PERSONNEL_T",
+      "COLUMN_NAME": "FONC_STATUT",
+      "DATA_TYPE": "VARCHAR2",
+      "DATA_LENGTH": 100,
+      "DATA_PRECISION": null,
+      "DATA_SCALE": null
+    },
+    {
+      "TABLE_NAME": "PERSONNEL_T",
+      "COLUMN_NAME": "STAT_MATRI",
+      "DATA_TYPE": "NVARCHAR2",
+      "DATA_LENGTH": 100,
+      "DATA_PRECISION": null,
+      "DATA_SCALE": null
+    },
+    {
+      "TABLE_NAME": "PERSONNEL_T",
+      "COLUMN_NAME": "ETABLISSEMENT",
+      "DATA_TYPE": "VARCHAR2",
+      "DATA_LENGTH": 100,
+      "DATA_PRECISION": null,
+      "DATA_SCALE": null
+    },
+    {
+      "TABLE_NAME": "PERSONNEL_T",
+      "COLUMN_NAME": "GRADE",
+      "DATA_TYPE": "VARCHAR2",
+      "DATA_LENGTH": 50,
+      "DATA_PRECISION": null,
+      "DATA_SCALE": null
+    },
+    {
+      "TABLE_NAME": "PERSONNEL_T",
+      "COLUMN_NAME": "USERNAME",
+      "DATA_TYPE": "VARCHAR2",
+      "DATA_LENGTH": 100,
+      "DATA_PRECISION": null,
+      "DATA_SCALE": null
+    },
+    {
+      "TABLE_NAME": "PERSONNEL_T",
+      "COLUMN_NAME": "PERS_CODE",
+      "DATA_TYPE": "NUMBER",
+      "DATA_LENGTH": 22,
+      "DATA_PRECISION": null,
+      "DATA_SCALE": 0
+    },
+    {
+      "TABLE_NAME": "PERSONNEL_T",
+      "COLUMN_NAME": "DIR_ID",
+      "DATA_TYPE": "NUMBER",
+      "DATA_LENGTH": 22,
+      "DATA_PRECISION": null,
+      "DATA_SCALE": null
+    },
+    {
+      "TABLE_NAME": "PERSONNEL_T",
+      "COLUMN_NAME": "SERV_ID",
+      "DATA_TYPE": "NUMBER",
+      "DATA_LENGTH": 22,
+      "DATA_PRECISION": null,
+      "DATA_SCALE": null
+    }
+  ],
+  "PERS_CORRESP": [
+    {
+      "TABLE_NAME": "PERS_CORRESP",
+      "COLUMN_NAME": "ID",
+      "DATA_TYPE": "NUMBER",
+      "DATA_LENGTH": 22,
+      "DATA_PRECISION": null,
+      "DATA_SCALE": 0
+    },
+    {
+      "TABLE_NAME": "PERS_CORRESP",
+      "COLUMN_NAME": "PERS_CODE",
+      "DATA_TYPE": "NUMBER",
+      "DATA_LENGTH": 22,
+      "DATA_PRECISION": null,
+      "DATA_SCALE": 0
+    }
+  ],
+  "PRT_DIRECTIONS": [
+    {
+      "TABLE_NAME": "PRT_DIRECTIONS",
+      "COLUMN_NAME": "ID_DIR",
+      "DATA_TYPE": "NUMBER",
+      "DATA_LENGTH": 22,
+      "DATA_PRECISION": null,
+      "DATA_SCALE": 0
+    },
+    {
+      "TABLE_NAME": "PRT_DIRECTIONS",
+      "COLUMN_NAME": "DIR_REF",
+      "DATA_TYPE": "NUMBER",
+      "DATA_LENGTH": 22,
+      "DATA_PRECISION": null,
+      "DATA_SCALE": 0
+    },
+    {
+      "TABLE_NAME": "PRT_DIRECTIONS",
+      "COLUMN_NAME": "CORRESP_T",
+      "DATA_TYPE": "NUMBER",
+      "DATA_LENGTH": 22,
+      "DATA_PRECISION": null,
+      "DATA_SCALE": 0
+    },
+    {
+      "TABLE_NAME": "PRT_DIRECTIONS",
+      "COLUMN_NAME": "DIR_NOM",
+      "DATA_TYPE": "VARCHAR2",
+      "DATA_LENGTH": 250,
+      "DATA_PRECISION": null,
+      "DATA_SCALE": null
+    },
+    {
+      "TABLE_NAME": "PRT_DIRECTIONS",
+      "COLUMN_NAME": "ABREV",
+      "DATA_TYPE": "VARCHAR2",
+      "DATA_LENGTH": 250,
+      "DATA_PRECISION": null,
+      "DATA_SCALE": null
+    },
+    {
+      "TABLE_NAME": "PRT_DIRECTIONS",
+      "COLUMN_NAME": "CD_DIR",
+      "DATA_TYPE": "VARCHAR2",
+      "DATA_LENGTH": 50,
+      "DATA_PRECISION": null,
+      "DATA_SCALE": null
+    },
+    {
+      "TABLE_NAME": "PRT_DIRECTIONS",
+      "COLUMN_NAME": "DIR_DESC",
+      "DATA_TYPE": "VARCHAR2",
+      "DATA_LENGTH": 500,
+      "DATA_PRECISION": null,
+      "DATA_SCALE": null
+    },
+    {
+      "TABLE_NAME": "PRT_DIRECTIONS",
+      "COLUMN_NAME": "DIR_STATUT",
+      "DATA_TYPE": "NUMBER",
+      "DATA_LENGTH": 22,
+      "DATA_PRECISION": null,
+      "DATA_SCALE": 0
+    },
+    {
+      "TABLE_NAME": "PRT_DIRECTIONS",
+      "COLUMN_NAME": "DIR_CODE",
+      "DATA_TYPE": "VARCHAR2",
+      "DATA_LENGTH": 150,
+      "DATA_PRECISION": null,
+      "DATA_SCALE": null
+    }
+  ],
+  "RH_SITUATIONS": [
+    {
+      "TABLE_NAME": "RH_SITUATIONS",
+      "COLUMN_NAME": "PERS_CODE",
+      "DATA_TYPE": "NUMBER",
+      "DATA_LENGTH": 22,
+      "DATA_PRECISION": null,
+      "DATA_SCALE": 0
+    },
+    {
+      "TABLE_NAME": "RH_SITUATIONS",
+      "COLUMN_NAME": "LIEU_CODE",
+      "DATA_TYPE": "NUMBER",
+      "DATA_LENGTH": 22,
+      "DATA_PRECISION": null,
+      "DATA_SCALE": 0
+    },
+    {
+      "TABLE_NAME": "RH_SITUATIONS",
+      "COLUMN_NAME": "FONC_REF",
+      "DATA_TYPE": "VARCHAR2",
+      "DATA_LENGTH": 60,
+      "DATA_PRECISION": null,
+      "DATA_SCALE": null
+    },
+    {
+      "TABLE_NAME": "RH_SITUATIONS",
+      "COLUMN_NAME": "DIR_REF",
+      "DATA_TYPE": "VARCHAR2",
+      "DATA_LENGTH": 20,
+      "DATA_PRECISION": null,
+      "DATA_SCALE": null
+    },
+    {
+      "TABLE_NAME": "RH_SITUATIONS",
+      "COLUMN_NAME": "SDIR_REF",
+      "DATA_TYPE": "VARCHAR2",
+      "DATA_LENGTH": 20,
+      "DATA_PRECISION": null,
+      "DATA_SCALE": null
+    },
+    {
+      "TABLE_NAME": "RH_SITUATIONS",
+      "COLUMN_NAME": "DIV_REF",
+      "DATA_TYPE": "VARCHAR2",
+      "DATA_LENGTH": 20,
+      "DATA_PRECISION": null,
+      "DATA_SCALE": null
+    },
+    {
+      "TABLE_NAME": "RH_SITUATIONS",
+      "COLUMN_NAME": "PFONC_NUMDECISION",
+      "DATA_TYPE": "VARCHAR2",
+      "DATA_LENGTH": 150,
+      "DATA_PRECISION": null,
+      "DATA_SCALE": null
+    },
+    {
+      "TABLE_NAME": "RH_SITUATIONS",
+      "COLUMN_NAME": "PFONC_DATE",
+      "DATA_TYPE": "DATE",
+      "DATA_LENGTH": 7,
+      "DATA_PRECISION": null,
+      "DATA_SCALE": null
+    },
+    {
+      "TABLE_NAME": "RH_SITUATIONS",
+      "COLUMN_NAME": "PFONC_ANNEE",
+      "DATA_TYPE": "NUMBER",
+      "DATA_LENGTH": 22,
+      "DATA_PRECISION": null,
+      "DATA_SCALE": 0
+    },
+    {
+      "TABLE_NAME": "RH_SITUATIONS",
+      "COLUMN_NAME": "STAT_CODE",
+      "DATA_TYPE": "NUMBER",
+      "DATA_LENGTH": 22,
+      "DATA_PRECISION": null,
+      "DATA_SCALE": 0
+    },
+    {
+      "TABLE_NAME": "RH_SITUATIONS",
+      "COLUMN_NAME": "COR_CODE",
+      "DATA_TYPE": "NUMBER",
+      "DATA_LENGTH": 22,
+      "DATA_PRECISION": null,
+      "DATA_SCALE": 0
+    },
+    {
+      "TABLE_NAME": "RH_SITUATIONS",
+      "COLUMN_NAME": "GRAD_CODE",
+      "DATA_TYPE": "NUMBER",
+      "DATA_LENGTH": 22,
+      "DATA_PRECISION": null,
+      "DATA_SCALE": 0
+    },
+    {
+      "TABLE_NAME": "RH_SITUATIONS",
+      "COLUMN_NAME": "PAVANC_NUMARRETE",
+      "DATA_TYPE": "VARCHAR2",
+      "DATA_LENGTH": 150,
+      "DATA_PRECISION": null,
+      "DATA_SCALE": null
+    },
+    {
+      "TABLE_NAME": "RH_SITUATIONS",
+      "COLUMN_NAME": "PAVANC_DATEARRETE",
+      "DATA_TYPE": "DATE",
+      "DATA_LENGTH": 7,
+      "DATA_PRECISION": null,
+      "DATA_SCALE": null
+    },
+    {
+      "TABLE_NAME": "RH_SITUATIONS",
+      "COLUMN_NAME": "IND_CODE",
+      "DATA_TYPE": "NUMBER",
+      "DATA_LENGTH": 22,
+      "DATA_PRECISION": null,
+      "DATA_SCALE": 0
+    },
+    {
+      "TABLE_NAME": "RH_SITUATIONS",
+      "COLUMN_NAME": "CATEG_CODE",
+      "DATA_TYPE": "NUMBER",
+      "DATA_LENGTH": 22,
+      "DATA_PRECISION": null,
+      "DATA_SCALE": 0
+    },
+    {
+      "TABLE_NAME": "RH_SITUATIONS",
+      "COLUMN_NAME": "DIP_CODE",
+      "DATA_TYPE": "NUMBER",
+      "DATA_LENGTH": 22,
+      "DATA_PRECISION": null,
+      "DATA_SCALE": 0
+    },
+    {
+      "TABLE_NAME": "RH_SITUATIONS",
+      "COLUMN_NAME": "FORMA_CODE",
+      "DATA_TYPE": "NUMBER",
+      "DATA_LENGTH": 22,
+      "DATA_PRECISION": null,
+      "DATA_SCALE": 0
+    },
+    {
+      "TABLE_NAME": "RH_SITUATIONS",
+      "COLUMN_NAME": "PRECLAS_ANNEE",
+      "DATA_TYPE": "NUMBER",
+      "DATA_LENGTH": 22,
+      "DATA_PRECISION": null,
+      "DATA_SCALE": null
+    },
+    {
+      "TABLE_NAME": "RH_SITUATIONS",
+      "COLUMN_NAME": "PRECLAS_ANNEEDIPL",
+      "DATA_TYPE": "NUMBER",
+      "DATA_LENGTH": 22,
+      "DATA_PRECISION": null,
+      "DATA_SCALE": null
+    },
+    {
+      "TABLE_NAME": "RH_SITUATIONS",
+      "COLUMN_NAME": "SCOR_CODE",
+      "DATA_TYPE": "NUMBER",
+      "DATA_LENGTH": 22,
+      "DATA_PRECISION": null,
+      "DATA_SCALE": null
+    },
+    {
+      "TABLE_NAME": "RH_SITUATIONS",
+      "COLUMN_NAME": "SITU_DATEPRISESERVICE",
+      "DATA_TYPE": "DATE",
+      "DATA_LENGTH": 7,
+      "DATA_PRECISION": null,
+      "DATA_SCALE": null
+    },
+    {
+      "TABLE_NAME": "RH_SITUATIONS",
+      "COLUMN_NAME": "SITU_DATECORPS",
+      "DATA_TYPE": "DATE",
+      "DATA_LENGTH": 7,
+      "DATA_PRECISION": null,
+      "DATA_SCALE": null
+    },
+    {
+      "TABLE_NAME": "RH_SITUATIONS",
+      "COLUMN_NAME": "SITU_DATEGRADE",
+      "DATA_TYPE": "DATE",
+      "DATA_LENGTH": 7,
+      "DATA_PRECISION": null,
+      "DATA_SCALE": null
+    },
+    {
+      "TABLE_NAME": "RH_SITUATIONS",
+      "COLUMN_NAME": "PFONC_DATEPRISESERVICE",
+      "DATA_TYPE": "DATE",
+      "DATA_LENGTH": 7,
+      "DATA_PRECISION": null,
+      "DATA_SCALE": null
+    },
+    {
+      "TABLE_NAME": "RH_SITUATIONS",
+      "COLUMN_NAME": "SITU_DATECAT",
+      "DATA_TYPE": "DATE",
+      "DATA_LENGTH": 7,
+      "DATA_PRECISION": null,
+      "DATA_SCALE": null
+    },
+    {
+      "TABLE_NAME": "RH_SITUATIONS",
+      "COLUMN_NAME": "CC_CODE",
+      "DATA_TYPE": "VARCHAR2",
+      "DATA_LENGTH": 4,
+      "DATA_PRECISION": null,
+      "DATA_SCALE": null
+    },
+    {
+      "TABLE_NAME": "RH_SITUATIONS",
+      "COLUMN_NAME": "MODIF_DATE",
+      "DATA_TYPE": "DATE",
+      "DATA_LENGTH": 7,
+      "DATA_PRECISION": null,
+      "DATA_SCALE": null
+    },
+    {
+      "TABLE_NAME": "RH_SITUATIONS",
+      "COLUMN_NAME": "BUD_CODE",
+      "DATA_TYPE": "VARCHAR2",
+      "DATA_LENGTH": 25,
+      "DATA_PRECISION": null,
+      "DATA_SCALE": null
+    },
+    {
+      "TABLE_NAME": "RH_SITUATIONS",
+      "COLUMN_NAME": "CODE_MODE",
+      "DATA_TYPE": "NUMBER",
+      "DATA_LENGTH": 22,
+      "DATA_PRECISION": null,
+      "DATA_SCALE": 0
+    },
+    {
+      "TABLE_NAME": "RH_SITUATIONS",
+      "COLUMN_NAME": "PFONC_NOTESERV",
+      "DATA_TYPE": "VARCHAR2",
+      "DATA_LENGTH": 150,
+      "DATA_PRECISION": null,
+      "DATA_SCALE": null
+    },
+    {
+      "TABLE_NAME": "RH_SITUATIONS",
+      "COLUMN_NAME": "PFONC_DATENOTESERV",
+      "DATA_TYPE": "DATE",
+      "DATA_LENGTH": 7,
+      "DATA_PRECISION": null,
+      "DATA_SCALE": null
+    },
+    {
+      "TABLE_NAME": "RH_SITUATIONS",
+      "COLUMN_NAME": "CADRE",
+      "DATA_TYPE": "VARCHAR2",
+      "DATA_LENGTH": 5,
+      "DATA_PRECISION": null,
+      "DATA_SCALE": null
+    },
+    {
+      "TABLE_NAME": "RH_SITUATIONS",
+      "COLUMN_NAME": "CADRE_RDR",
+      "DATA_TYPE": "VARCHAR2",
+      "DATA_LENGTH": 2,
+      "DATA_PRECISION": null,
+      "DATA_SCALE": null
+    }
+  ],
+  "RH_SITUATIONS_PORTAL": [
+    {
+      "TABLE_NAME": "RH_SITUATIONS_PORTAL",
+      "COLUMN_NAME": "PERS_CODE",
+      "DATA_TYPE": "NUMBER",
+      "DATA_LENGTH": 22,
+      "DATA_PRECISION": null,
+      "DATA_SCALE": 0
+    },
+    {
+      "TABLE_NAME": "RH_SITUATIONS_PORTAL",
+      "COLUMN_NAME": "PERS_MAT",
+      "DATA_TYPE": "NUMBER",
+      "DATA_LENGTH": 22,
+      "DATA_PRECISION": null,
+      "DATA_SCALE": null
+    },
+    {
+      "TABLE_NAME": "RH_SITUATIONS_PORTAL",
+      "COLUMN_NAME": "PERS_NOM",
+      "DATA_TYPE": "VARCHAR2",
+      "DATA_LENGTH": 50,
+      "DATA_PRECISION": null,
+      "DATA_SCALE": null
+    },
+    {
+      "TABLE_NAME": "RH_SITUATIONS_PORTAL",
+      "COLUMN_NAME": "PERS_PRENOMS",
+      "DATA_TYPE": "VARCHAR2",
+      "DATA_LENGTH": 50,
+      "DATA_PRECISION": null,
+      "DATA_SCALE": null
+    },
+    {
+      "TABLE_NAME": "RH_SITUATIONS_PORTAL",
+      "COLUMN_NAME": "PERS_CIN",
+      "DATA_TYPE": "NUMBER",
+      "DATA_LENGTH": 22,
+      "DATA_PRECISION": 12,
+      "DATA_SCALE": 0
+    },
+    {
+      "TABLE_NAME": "RH_SITUATIONS_PORTAL",
+      "COLUMN_NAME": "DIR_REF",
+      "DATA_TYPE": "VARCHAR2",
+      "DATA_LENGTH": 20,
+      "DATA_PRECISION": null,
+      "DATA_SCALE": null
+    },
+    {
+      "TABLE_NAME": "RH_SITUATIONS_PORTAL",
+      "COLUMN_NAME": "SDIR_REF",
+      "DATA_TYPE": "VARCHAR2",
+      "DATA_LENGTH": 20,
+      "DATA_PRECISION": null,
+      "DATA_SCALE": null
+    },
+    {
+      "TABLE_NAME": "RH_SITUATIONS_PORTAL",
+      "COLUMN_NAME": "FONC_REF",
+      "DATA_TYPE": "VARCHAR2",
+      "DATA_LENGTH": 60,
+      "DATA_PRECISION": null,
+      "DATA_SCALE": null
+    },
+    {
+      "TABLE_NAME": "RH_SITUATIONS_PORTAL",
+      "COLUMN_NAME": "PERS_STATUT",
+      "DATA_TYPE": "VARCHAR2",
+      "DATA_LENGTH": 50,
+      "DATA_PRECISION": null,
+      "DATA_SCALE": null
+    }
+  ],
+  "SERVICES": [
+    {
+      "TABLE_NAME": "SERVICES",
+      "COLUMN_NAME": "ID",
+      "DATA_TYPE": "NUMBER",
+      "DATA_LENGTH": 22,
+      "DATA_PRECISION": null,
+      "DATA_SCALE": null
+    },
+    {
+      "TABLE_NAME": "SERVICES",
+      "COLUMN_NAME": "NOM",
+      "DATA_TYPE": "VARCHAR2",
+      "DATA_LENGTH": 100,
+      "DATA_PRECISION": null,
+      "DATA_SCALE": null
+    },
+    {
+      "TABLE_NAME": "SERVICES",
+      "COLUMN_NAME": "DIR",
+      "DATA_TYPE": "VARCHAR2",
+      "DATA_LENGTH": 50,
+      "DATA_PRECISION": null,
+      "DATA_SCALE": null
+    },
+    {
+      "TABLE_NAME": "SERVICES",
+      "COLUMN_NAME": "ABREV",
+      "DATA_TYPE": "VARCHAR2",
+      "DATA_LENGTH": 100,
+      "DATA_PRECISION": null,
+      "DATA_SCALE": null
+    },
+    {
+      "TABLE_NAME": "SERVICES",
+      "COLUMN_NAME": "CD_BUR",
+      "DATA_TYPE": "VARCHAR2",
+      "DATA_LENGTH": 20,
+      "DATA_PRECISION": null,
+      "DATA_SCALE": null
+    },
+    {
+      "TABLE_NAME": "SERVICES",
+      "COLUMN_NAME": "LIEU_BUREAU",
+      "DATA_TYPE": "VARCHAR2",
+      "DATA_LENGTH": 100,
+      "DATA_PRECISION": null,
+      "DATA_SCALE": null
+    },
+    {
+      "TABLE_NAME": "SERVICES",
+      "COLUMN_NAME": "ADRESSE",
+      "DATA_TYPE": "VARCHAR2",
+      "DATA_LENGTH": 250,
+      "DATA_PRECISION": null,
+      "DATA_SCALE": null
+    },
+    {
+      "TABLE_NAME": "SERVICES",
+      "COLUMN_NAME": "MAIL",
+      "DATA_TYPE": "VARCHAR2",
+      "DATA_LENGTH": 100,
+      "DATA_PRECISION": null,
+      "DATA_SCALE": null
+    },
+    {
+      "TABLE_NAME": "SERVICES",
+      "COLUMN_NAME": "TEL",
+      "DATA_TYPE": "VARCHAR2",
+      "DATA_LENGTH": 20,
+      "DATA_PRECISION": null,
+      "DATA_SCALE": null
+    },
+    {
+      "TABLE_NAME": "SERVICES",
+      "COLUMN_NAME": "TEL_2",
+      "DATA_TYPE": "VARCHAR2",
+      "DATA_LENGTH": 20,
+      "DATA_PRECISION": null,
+      "DATA_SCALE": null
+    },
+    {
+      "TABLE_NAME": "SERVICES",
+      "COLUMN_NAME": "IS_ACTIVE",
+      "DATA_TYPE": "NUMBER",
+      "DATA_LENGTH": 22,
+      "DATA_PRECISION": null,
+      "DATA_SCALE": 0
+    },
+    {
+      "TABLE_NAME": "SERVICES",
+      "COLUMN_NAME": "UXID",
+      "DATA_TYPE": "VARCHAR2",
+      "DATA_LENGTH": 100,
+      "DATA_PRECISION": null,
+      "DATA_SCALE": null
+    },
+    {
+      "TABLE_NAME": "SERVICES",
+      "COLUMN_NAME": "CREATED_AT",
+      "DATA_TYPE": "DATE",
+      "DATA_LENGTH": 7,
+      "DATA_PRECISION": null,
+      "DATA_SCALE": null
+    },
+    {
+      "TABLE_NAME": "SERVICES",
+      "COLUMN_NAME": "UPDATED_AT",
+      "DATA_TYPE": "DATE",
+      "DATA_LENGTH": 7,
+      "DATA_PRECISION": null,
+      "DATA_SCALE": null
+    },
+    {
+      "TABLE_NAME": "SERVICES",
+      "COLUMN_NAME": "DIR_UXID",
+      "DATA_TYPE": "VARCHAR2",
+      "DATA_LENGTH": 100,
+      "DATA_PRECISION": null,
+      "DATA_SCALE": null
+    }
+  ],
+  "SERVICES_T": [
+    {
+      "TABLE_NAME": "SERVICES_T",
+      "COLUMN_NAME": "ID",
+      "DATA_TYPE": "NUMBER",
+      "DATA_LENGTH": 22,
+      "DATA_PRECISION": null,
+      "DATA_SCALE": null
+    },
+    {
+      "TABLE_NAME": "SERVICES_T",
+      "COLUMN_NAME": "NOM",
+      "DATA_TYPE": "VARCHAR2",
+      "DATA_LENGTH": 100,
+      "DATA_PRECISION": null,
+      "DATA_SCALE": null
+    },
+    {
+      "TABLE_NAME": "SERVICES_T",
+      "COLUMN_NAME": "DIR",
+      "DATA_TYPE": "VARCHAR2",
+      "DATA_LENGTH": 50,
+      "DATA_PRECISION": null,
+      "DATA_SCALE": null
+    },
+    {
+      "TABLE_NAME": "SERVICES_T",
+      "COLUMN_NAME": "ABREV",
+      "DATA_TYPE": "VARCHAR2",
+      "DATA_LENGTH": 100,
+      "DATA_PRECISION": null,
+      "DATA_SCALE": null
+    },
+    {
+      "TABLE_NAME": "SERVICES_T",
+      "COLUMN_NAME": "CD_BUR",
+      "DATA_TYPE": "VARCHAR2",
+      "DATA_LENGTH": 20,
+      "DATA_PRECISION": null,
+      "DATA_SCALE": null
+    },
+    {
+      "TABLE_NAME": "SERVICES_T",
+      "COLUMN_NAME": "LIEU_BUREAU",
+      "DATA_TYPE": "VARCHAR2",
+      "DATA_LENGTH": 100,
+      "DATA_PRECISION": null,
+      "DATA_SCALE": null
+    },
+    {
+      "TABLE_NAME": "SERVICES_T",
+      "COLUMN_NAME": "ADRESSE",
+      "DATA_TYPE": "VARCHAR2",
+      "DATA_LENGTH": 250,
+      "DATA_PRECISION": null,
+      "DATA_SCALE": null
+    },
+    {
+      "TABLE_NAME": "SERVICES_T",
+      "COLUMN_NAME": "MAIL",
+      "DATA_TYPE": "VARCHAR2",
+      "DATA_LENGTH": 100,
+      "DATA_PRECISION": null,
+      "DATA_SCALE": null
+    },
+    {
+      "TABLE_NAME": "SERVICES_T",
+      "COLUMN_NAME": "TEL",
+      "DATA_TYPE": "VARCHAR2",
+      "DATA_LENGTH": 20,
+      "DATA_PRECISION": null,
+      "DATA_SCALE": null
+    },
+    {
+      "TABLE_NAME": "SERVICES_T",
+      "COLUMN_NAME": "TEL_2",
+      "DATA_TYPE": "VARCHAR2",
+      "DATA_LENGTH": 20,
+      "DATA_PRECISION": null,
+      "DATA_SCALE": null
+    },
+    {
+      "TABLE_NAME": "SERVICES_T",
+      "COLUMN_NAME": "DIR_ID",
+      "DATA_TYPE": "NUMBER",
+      "DATA_LENGTH": 22,
+      "DATA_PRECISION": null,
+      "DATA_SCALE": null
+    },
+    {
+      "TABLE_NAME": "SERVICES_T",
+      "COLUMN_NAME": "SDIR_REF",
+      "DATA_TYPE": "VARCHAR2",
+      "DATA_LENGTH": 20,
+      "DATA_PRECISION": null,
+      "DATA_SCALE": null
+    },
+    {
+      "TABLE_NAME": "SERVICES_T",
+      "COLUMN_NAME": "SDIR_CODE",
+      "DATA_TYPE": "VARCHAR2",
+      "DATA_LENGTH": 50,
+      "DATA_PRECISION": null,
+      "DATA_SCALE": null
+    }
+  ],
+  "SERV_CORRESP": [
+    {
+      "TABLE_NAME": "SERV_CORRESP",
+      "COLUMN_NAME": "ID",
+      "DATA_TYPE": "NUMBER",
+      "DATA_LENGTH": 22,
+      "DATA_PRECISION": null,
+      "DATA_SCALE": null
+    },
+    {
+      "TABLE_NAME": "SERV_CORRESP",
+      "COLUMN_NAME": "DIR_ID",
+      "DATA_TYPE": "NUMBER",
+      "DATA_LENGTH": 22,
+      "DATA_PRECISION": null,
+      "DATA_SCALE": null
+    },
+    {
+      "TABLE_NAME": "SERV_CORRESP",
+      "COLUMN_NAME": "SDIR_REF",
+      "DATA_TYPE": "VARCHAR2",
+      "DATA_LENGTH": 20,
+      "DATA_PRECISION": null,
+      "DATA_SCALE": null
+    },
+    {
+      "TABLE_NAME": "SERV_CORRESP",
+      "COLUMN_NAME": "SDIR_CODE",
+      "DATA_TYPE": "VARCHAR2",
+      "DATA_LENGTH": 50,
+      "DATA_PRECISION": null,
+      "DATA_SCALE": null
+    }
+  ],
+  "TEST_DATE": [
+    {
+      "TABLE_NAME": "TEST_DATE",
+      "COLUMN_NAME": "DATE_JOUR",
+      "DATA_TYPE": "DATE",
+      "DATA_LENGTH": 7,
+      "DATA_PRECISION": null,
+      "DATA_SCALE": null
+    },
+    {
+      "TABLE_NAME": "TEST_DATE",
+      "COLUMN_NAME": "STRING_2",
+      "DATA_TYPE": "VARCHAR2",
+      "DATA_LENGTH": 100,
+      "DATA_PRECISION": null,
+      "DATA_SCALE": null
+    },
+    {
+      "TABLE_NAME": "TEST_DATE",
+      "COLUMN_NAME": "STRING_1",
+      "DATA_TYPE": "VARCHAR2",
+      "DATA_LENGTH": 250,
+      "DATA_PRECISION": null,
+      "DATA_SCALE": null
+    },
+    {
+      "TABLE_NAME": "TEST_DATE",
+      "COLUMN_NAME": "UXID",
+      "DATA_TYPE": "VARCHAR2",
+      "DATA_LENGTH": 100,
+      "DATA_PRECISION": null,
+      "DATA_SCALE": null
+    },
+    {
+      "TABLE_NAME": "TEST_DATE",
+      "COLUMN_NAME": "UPDATED_AT",
+      "DATA_TYPE": "DATE",
+      "DATA_LENGTH": 7,
+      "DATA_PRECISION": null,
+      "DATA_SCALE": null
+    },
+    {
+      "TABLE_NAME": "TEST_DATE",
+      "COLUMN_NAME": "ID",
+      "DATA_TYPE": "NUMBER",
+      "DATA_LENGTH": 22,
+      "DATA_PRECISION": null,
+      "DATA_SCALE": 0
+    },
+    {
+      "TABLE_NAME": "TEST_DATE",
+      "COLUMN_NAME": "TEST",
+      "DATA_TYPE": "NUMBER",
+      "DATA_LENGTH": 22,
+      "DATA_PRECISION": null,
+      "DATA_SCALE": 0
+    }
+  ],
+  "USERAPPS": [
+    {
+      "TABLE_NAME": "USERAPPS",
+      "COLUMN_NAME": "ID",
+      "DATA_TYPE": "NUMBER",
+      "DATA_LENGTH": 22,
+      "DATA_PRECISION": null,
+      "DATA_SCALE": 0
+    },
+    {
+      "TABLE_NAME": "USERAPPS",
+      "COLUMN_NAME": "USERNAME",
+      "DATA_TYPE": "VARCHAR2",
+      "DATA_LENGTH": 100,
+      "DATA_PRECISION": null,
+      "DATA_SCALE": null
+    },
+    {
+      "TABLE_NAME": "USERAPPS",
+      "COLUMN_NAME": "EMAIL",
+      "DATA_TYPE": "VARCHAR2",
+      "DATA_LENGTH": 100,
+      "DATA_PRECISION": null,
+      "DATA_SCALE": null
+    },
+    {
+      "TABLE_NAME": "USERAPPS",
+      "COLUMN_NAME": "MATRICULE",
+      "DATA_TYPE": "NUMBER",
+      "DATA_LENGTH": 22,
+      "DATA_PRECISION": null,
+      "DATA_SCALE": null
+    },
+    {
+      "TABLE_NAME": "USERAPPS",
+      "COLUMN_NAME": "NOM",
+      "DATA_TYPE": "VARCHAR2",
+      "DATA_LENGTH": 100,
+      "DATA_PRECISION": null,
+      "DATA_SCALE": null
+    },
+    {
+      "TABLE_NAME": "USERAPPS",
+      "COLUMN_NAME": "PRENOM",
+      "DATA_TYPE": "VARCHAR2",
+      "DATA_LENGTH": 100,
+      "DATA_PRECISION": null,
+      "DATA_SCALE": null
+    },
+    {
+      "TABLE_NAME": "USERAPPS",
+      "COLUMN_NAME": "MPASS",
+      "DATA_TYPE": "VARCHAR2",
+      "DATA_LENGTH": 500,
+      "DATA_PRECISION": null,
+      "DATA_SCALE": null
+    },
+    {
+      "TABLE_NAME": "USERAPPS",
+      "COLUMN_NAME": "CD_APP",
+      "DATA_TYPE": "VARCHAR2",
+      "DATA_LENGTH": 20,
+      "DATA_PRECISION": null,
+      "DATA_SCALE": null
+    },
+    {
+      "TABLE_NAME": "USERAPPS",
+      "COLUMN_NAME": "APP_NOM",
+      "DATA_TYPE": "VARCHAR2",
+      "DATA_LENGTH": 100,
+      "DATA_PRECISION": null,
+      "DATA_SCALE": null
+    },
+    {
+      "TABLE_NAME": "USERAPPS",
+      "COLUMN_NAME": "SLUG",
+      "DATA_TYPE": "VARCHAR2",
+      "DATA_LENGTH": 70,
+      "DATA_PRECISION": null,
+      "DATA_SCALE": null
+    },
+    {
+      "TABLE_NAME": "USERAPPS",
+      "COLUMN_NAME": "DESCRIPTION",
+      "DATA_TYPE": "VARCHAR2",
+      "DATA_LENGTH": 500,
+      "DATA_PRECISION": null,
+      "DATA_SCALE": null
+    },
+    {
+      "TABLE_NAME": "USERAPPS",
+      "COLUMN_NAME": "STATUS",
+      "DATA_TYPE": "VARCHAR2",
+      "DATA_LENGTH": 50,
+      "DATA_PRECISION": null,
+      "DATA_SCALE": null
+    },
+    {
+      "TABLE_NAME": "USERAPPS",
+      "COLUMN_NAME": "ACTIF",
+      "DATA_TYPE": "NUMBER",
+      "DATA_LENGTH": 22,
+      "DATA_PRECISION": null,
+      "DATA_SCALE": 0
+    },
+    {
+      "TABLE_NAME": "USERAPPS",
+      "COLUMN_NAME": "PROFILE",
+      "DATA_TYPE": "VARCHAR2",
+      "DATA_LENGTH": 50,
+      "DATA_PRECISION": null,
+      "DATA_SCALE": null
+    },
+    {
+      "TABLE_NAME": "USERAPPS",
+      "COLUMN_NAME": "ROLE_1",
+      "DATA_TYPE": "VARCHAR2",
+      "DATA_LENGTH": 50,
+      "DATA_PRECISION": null,
+      "DATA_SCALE": null
+    },
+    {
+      "TABLE_NAME": "USERAPPS",
+      "COLUMN_NAME": "ROLE_2",
+      "DATA_TYPE": "VARCHAR2",
+      "DATA_LENGTH": 50,
+      "DATA_PRECISION": null,
+      "DATA_SCALE": null
+    },
+    {
+      "TABLE_NAME": "USERAPPS",
+      "COLUMN_NAME": "ROLE_3",
+      "DATA_TYPE": "VARCHAR2",
+      "DATA_LENGTH": 50,
+      "DATA_PRECISION": null,
+      "DATA_SCALE": null
+    },
+    {
+      "TABLE_NAME": "USERAPPS",
+      "COLUMN_NAME": "ROLE_4",
+      "DATA_TYPE": "VARCHAR2",
+      "DATA_LENGTH": 50,
+      "DATA_PRECISION": null,
+      "DATA_SCALE": null
+    },
+    {
+      "TABLE_NAME": "USERAPPS",
+      "COLUMN_NAME": "URL",
+      "DATA_TYPE": "VARCHAR2",
+      "DATA_LENGTH": 250,
+      "DATA_PRECISION": null,
+      "DATA_SCALE": null
+    },
+    {
+      "TABLE_NAME": "USERAPPS",
+      "COLUMN_NAME": "LOGO",
+      "DATA_TYPE": "VARCHAR2",
+      "DATA_LENGTH": 100,
+      "DATA_PRECISION": null,
+      "DATA_SCALE": null
+    },
+    {
+      "TABLE_NAME": "USERAPPS",
+      "COLUMN_NAME": "CD_BUR",
+      "DATA_TYPE": "VARCHAR2",
+      "DATA_LENGTH": 20,
+      "DATA_PRECISION": null,
+      "DATA_SCALE": null
+    },
+    {
+      "TABLE_NAME": "USERAPPS",
+      "COLUMN_NAME": "SERVICE",
+      "DATA_TYPE": "VARCHAR2",
+      "DATA_LENGTH": 50,
+      "DATA_PRECISION": null,
+      "DATA_SCALE": null
+    },
+    {
+      "TABLE_NAME": "USERAPPS",
+      "COLUMN_NAME": "DEFAPP",
+      "DATA_TYPE": "VARCHAR2",
+      "DATA_LENGTH": 20,
+      "DATA_PRECISION": null,
+      "DATA_SCALE": null
+    }
+  ],
+  "USERS_INFOS": [
+    {
+      "TABLE_NAME": "USERS_INFOS",
+      "COLUMN_NAME": "USERNAME",
+      "DATA_TYPE": "VARCHAR2",
+      "DATA_LENGTH": 100,
+      "DATA_PRECISION": null,
+      "DATA_SCALE": null
+    },
+    {
+      "TABLE_NAME": "USERS_INFOS",
+      "COLUMN_NAME": "MATRICULE",
+      "DATA_TYPE": "NUMBER",
+      "DATA_LENGTH": 22,
+      "DATA_PRECISION": null,
+      "DATA_SCALE": null
+    },
+    {
+      "TABLE_NAME": "USERS_INFOS",
+      "COLUMN_NAME": "NOM",
+      "DATA_TYPE": "VARCHAR2",
+      "DATA_LENGTH": 100,
+      "DATA_PRECISION": null,
+      "DATA_SCALE": null
+    },
+    {
+      "TABLE_NAME": "USERS_INFOS",
+      "COLUMN_NAME": "PRENOM",
+      "DATA_TYPE": "VARCHAR2",
+      "DATA_LENGTH": 100,
+      "DATA_PRECISION": null,
+      "DATA_SCALE": null
+    },
+    {
+      "TABLE_NAME": "USERS_INFOS",
+      "COLUMN_NAME": "EMAIL",
+      "DATA_TYPE": "VARCHAR2",
+      "DATA_LENGTH": 100,
+      "DATA_PRECISION": null,
+      "DATA_SCALE": null
+    },
+    {
+      "TABLE_NAME": "USERS_INFOS",
+      "COLUMN_NAME": "TEL",
+      "DATA_TYPE": "VARCHAR2",
+      "DATA_LENGTH": 20,
+      "DATA_PRECISION": null,
+      "DATA_SCALE": null
+    },
+    {
+      "TABLE_NAME": "USERS_INFOS",
+      "COLUMN_NAME": "CIN",
+      "DATA_TYPE": "VARCHAR2",
+      "DATA_LENGTH": 20,
+      "DATA_PRECISION": null,
+      "DATA_SCALE": null
+    },
+    {
+      "TABLE_NAME": "USERS_INFOS",
+      "COLUMN_NAME": "DIRECTION",
+      "DATA_TYPE": "VARCHAR2",
+      "DATA_LENGTH": 50,
+      "DATA_PRECISION": null,
+      "DATA_SCALE": null
+    },
+    {
+      "TABLE_NAME": "USERS_INFOS",
+      "COLUMN_NAME": "SERVICE",
+      "DATA_TYPE": "VARCHAR2",
+      "DATA_LENGTH": 50,
+      "DATA_PRECISION": null,
+      "DATA_SCALE": null
+    },
+    {
+      "TABLE_NAME": "USERS_INFOS",
+      "COLUMN_NAME": "CD_BUR",
+      "DATA_TYPE": "VARCHAR2",
+      "DATA_LENGTH": 20,
+      "DATA_PRECISION": null,
+      "DATA_SCALE": null
+    },
+    {
+      "TABLE_NAME": "USERS_INFOS",
+      "COLUMN_NAME": "BUREAU",
+      "DATA_TYPE": "VARCHAR2",
+      "DATA_LENGTH": 100,
+      "DATA_PRECISION": null,
+      "DATA_SCALE": null
+    },
+    {
+      "TABLE_NAME": "USERS_INFOS",
+      "COLUMN_NAME": "PHOTO",
+      "DATA_TYPE": "VARCHAR2",
+      "DATA_LENGTH": 100,
+      "DATA_PRECISION": null,
+      "DATA_SCALE": null
+    },
+    {
+      "TABLE_NAME": "USERS_INFOS",
+      "COLUMN_NAME": "FIC_ID",
+      "DATA_TYPE": "VARCHAR2",
+      "DATA_LENGTH": 100,
+      "DATA_PRECISION": null,
+      "DATA_SCALE": null
+    },
+    {
+      "TABLE_NAME": "USERS_INFOS",
+      "COLUMN_NAME": "DOMAINE",
+      "DATA_TYPE": "VARCHAR2",
+      "DATA_LENGTH": 20,
+      "DATA_PRECISION": null,
+      "DATA_SCALE": null
+    },
+    {
+      "TABLE_NAME": "USERS_INFOS",
+      "COLUMN_NAME": "GRADE",
+      "DATA_TYPE": "VARCHAR2",
+      "DATA_LENGTH": 50,
+      "DATA_PRECISION": null,
+      "DATA_SCALE": null
+    },
+    {
+      "TABLE_NAME": "USERS_INFOS",
+      "COLUMN_NAME": "ETABLISSEMENT",
+      "DATA_TYPE": "VARCHAR2",
+      "DATA_LENGTH": 100,
+      "DATA_PRECISION": null,
+      "DATA_SCALE": null
+    },
+    {
+      "TABLE_NAME": "USERS_INFOS",
+      "COLUMN_NAME": "FONCTION",
+      "DATA_TYPE": "VARCHAR2",
+      "DATA_LENGTH": 100,
+      "DATA_PRECISION": null,
+      "DATA_SCALE": null
+    },
+    {
+      "TABLE_NAME": "USERS_INFOS",
+      "COLUMN_NAME": "USER_TYPE",
+      "DATA_TYPE": "VARCHAR2",
+      "DATA_LENGTH": 50,
+      "DATA_PRECISION": null,
+      "DATA_SCALE": null
+    },
+    {
+      "TABLE_NAME": "USERS_INFOS",
+      "COLUMN_NAME": "ADD_DATE",
+      "DATA_TYPE": "DATE",
+      "DATA_LENGTH": 7,
+      "DATA_PRECISION": null,
+      "DATA_SCALE": null
+    },
+    {
+      "TABLE_NAME": "USERS_INFOS",
+      "COLUMN_NAME": "STATUT",
+      "DATA_TYPE": "VARCHAR2",
+      "DATA_LENGTH": 20,
+      "DATA_PRECISION": null,
+      "DATA_SCALE": null
+    },
+    {
+      "TABLE_NAME": "USERS_INFOS",
+      "COLUMN_NAME": "APP_VALID",
+      "DATA_TYPE": "VARCHAR2",
+      "DATA_LENGTH": 20,
+      "DATA_PRECISION": null,
+      "DATA_SCALE": null
+    },
+    {
+      "TABLE_NAME": "USERS_INFOS",
+      "COLUMN_NAME": "ACT_TOKEN",
+      "DATA_TYPE": "VARCHAR2",
+      "DATA_LENGTH": 500,
+      "DATA_PRECISION": null,
+      "DATA_SCALE": null
+    },
+    {
+      "TABLE_NAME": "USERS_INFOS",
+      "COLUMN_NAME": "RES_TOKEN",
+      "DATA_TYPE": "VARCHAR2",
+      "DATA_LENGTH": 500,
+      "DATA_PRECISION": null,
+      "DATA_SCALE": null
+    },
+    {
+      "TABLE_NAME": "USERS_INFOS",
+      "COLUMN_NAME": "SESS_TOKEN",
+      "DATA_TYPE": "VARCHAR2",
+      "DATA_LENGTH": 500,
+      "DATA_PRECISION": null,
+      "DATA_SCALE": null
+    }
+  ],
+  "USER_ACCESS": [
+    {
+      "TABLE_NAME": "USER_ACCESS",
+      "COLUMN_NAME": "ID",
+      "DATA_TYPE": "NUMBER",
+      "DATA_LENGTH": 22,
+      "DATA_PRECISION": null,
+      "DATA_SCALE": 0
+    },
+    {
+      "TABLE_NAME": "USER_ACCESS",
+      "COLUMN_NAME": "ACCESS",
+      "DATA_TYPE": "VARCHAR2",
+      "DATA_LENGTH": 250,
+      "DATA_PRECISION": null,
+      "DATA_SCALE": null
+    },
+    {
+      "TABLE_NAME": "USER_ACCESS",
+      "COLUMN_NAME": "ABREV",
+      "DATA_TYPE": "VARCHAR2",
+      "DATA_LENGTH": 100,
+      "DATA_PRECISION": null,
+      "DATA_SCALE": null
+    },
+    {
+      "TABLE_NAME": "USER_ACCESS",
+      "COLUMN_NAME": "UXID",
+      "DATA_TYPE": "VARCHAR2",
+      "DATA_LENGTH": 100,
+      "DATA_PRECISION": null,
+      "DATA_SCALE": null
+    },
+    {
+      "TABLE_NAME": "USER_ACCESS",
+      "COLUMN_NAME": "CREATED_AT",
+      "DATA_TYPE": "DATE",
+      "DATA_LENGTH": 7,
+      "DATA_PRECISION": null,
+      "DATA_SCALE": null
+    },
+    {
+      "TABLE_NAME": "USER_ACCESS",
+      "COLUMN_NAME": "UPDATED_AT",
+      "DATA_TYPE": "DATE",
+      "DATA_LENGTH": 7,
+      "DATA_PRECISION": null,
+      "DATA_SCALE": null
+    },
+    {
+      "TABLE_NAME": "USER_ACCESS",
+      "COLUMN_NAME": "USER_UXID",
+      "DATA_TYPE": "VARCHAR2",
+      "DATA_LENGTH": 100,
+      "DATA_PRECISION": null,
+      "DATA_SCALE": null
+    },
+    {
+      "TABLE_NAME": "USER_ACCESS",
+      "COLUMN_NAME": "IS_ACTIVE",
+      "DATA_TYPE": "NUMBER",
+      "DATA_LENGTH": 22,
+      "DATA_PRECISION": null,
+      "DATA_SCALE": null
+    }
+  ],
+  "USER_ACCESS_LIST": [
+    {
+      "TABLE_NAME": "USER_ACCESS_LIST",
+      "COLUMN_NAME": "ID",
+      "DATA_TYPE": "NUMBER",
+      "DATA_LENGTH": 22,
+      "DATA_PRECISION": null,
+      "DATA_SCALE": 0
+    },
+    {
+      "TABLE_NAME": "USER_ACCESS_LIST",
+      "COLUMN_NAME": "USER_ID",
+      "DATA_TYPE": "NUMBER",
+      "DATA_LENGTH": 22,
+      "DATA_PRECISION": null,
+      "DATA_SCALE": 0
+    },
+    {
+      "TABLE_NAME": "USER_ACCESS_LIST",
+      "COLUMN_NAME": "ACCESS_ID",
+      "DATA_TYPE": "NUMBER",
+      "DATA_LENGTH": 22,
+      "DATA_PRECISION": null,
+      "DATA_SCALE": 0
+    },
+    {
+      "TABLE_NAME": "USER_ACCESS_LIST",
+      "COLUMN_NAME": "CREATED_AT",
+      "DATA_TYPE": "DATE",
+      "DATA_LENGTH": 7,
+      "DATA_PRECISION": null,
+      "DATA_SCALE": null
+    },
+    {
+      "TABLE_NAME": "USER_ACCESS_LIST",
+      "COLUMN_NAME": "UPDATED_AT",
+      "DATA_TYPE": "DATE",
+      "DATA_LENGTH": 7,
+      "DATA_PRECISION": null,
+      "DATA_SCALE": null
+    },
+    {
+      "TABLE_NAME": "USER_ACCESS_LIST",
+      "COLUMN_NAME": "ADMIN_ID",
+      "DATA_TYPE": "NUMBER",
+      "DATA_LENGTH": 22,
+      "DATA_PRECISION": null,
+      "DATA_SCALE": 0
+    }
+  ],
+  "USER_APP": [
+    {
+      "TABLE_NAME": "USER_APP",
+      "COLUMN_NAME": "ID",
+      "DATA_TYPE": "NUMBER",
+      "DATA_LENGTH": 22,
+      "DATA_PRECISION": null,
+      "DATA_SCALE": null
+    },
+    {
+      "TABLE_NAME": "USER_APP",
+      "COLUMN_NAME": "USERNAME",
+      "DATA_TYPE": "VARCHAR2",
+      "DATA_LENGTH": 100,
+      "DATA_PRECISION": null,
+      "DATA_SCALE": null
+    },
+    {
+      "TABLE_NAME": "USER_APP",
+      "COLUMN_NAME": "CD_APP",
+      "DATA_TYPE": "VARCHAR2",
+      "DATA_LENGTH": 20,
+      "DATA_PRECISION": null,
+      "DATA_SCALE": null
+    },
+    {
+      "TABLE_NAME": "USER_APP",
+      "COLUMN_NAME": "ROLE_1",
+      "DATA_TYPE": "VARCHAR2",
+      "DATA_LENGTH": 50,
+      "DATA_PRECISION": null,
+      "DATA_SCALE": null
+    },
+    {
+      "TABLE_NAME": "USER_APP",
+      "COLUMN_NAME": "ROLE_2",
+      "DATA_TYPE": "VARCHAR2",
+      "DATA_LENGTH": 50,
+      "DATA_PRECISION": null,
+      "DATA_SCALE": null
+    },
+    {
+      "TABLE_NAME": "USER_APP",
+      "COLUMN_NAME": "ROLE_3",
+      "DATA_TYPE": "VARCHAR2",
+      "DATA_LENGTH": 50,
+      "DATA_PRECISION": null,
+      "DATA_SCALE": null
+    },
+    {
+      "TABLE_NAME": "USER_APP",
+      "COLUMN_NAME": "ROLE_4",
+      "DATA_TYPE": "VARCHAR2",
+      "DATA_LENGTH": 50,
+      "DATA_PRECISION": null,
+      "DATA_SCALE": null
+    },
+    {
+      "TABLE_NAME": "USER_APP",
+      "COLUMN_NAME": "ACTIF",
+      "DATA_TYPE": "NUMBER",
+      "DATA_LENGTH": 22,
+      "DATA_PRECISION": null,
+      "DATA_SCALE": 0
+    },
+    {
+      "TABLE_NAME": "USER_APP",
+      "COLUMN_NAME": "PROFILE",
+      "DATA_TYPE": "VARCHAR2",
+      "DATA_LENGTH": 50,
+      "DATA_PRECISION": null,
+      "DATA_SCALE": null
+    },
+    {
+      "TABLE_NAME": "USER_APP",
+      "COLUMN_NAME": "DATE_AJOUT",
+      "DATA_TYPE": "DATE",
+      "DATA_LENGTH": 7,
+      "DATA_PRECISION": null,
+      "DATA_SCALE": null
+    },
+    {
+      "TABLE_NAME": "USER_APP",
+      "COLUMN_NAME": "VALIDATEUR",
+      "DATA_TYPE": "NUMBER",
+      "DATA_LENGTH": 22,
+      "DATA_PRECISION": null,
+      "DATA_SCALE": null
+    },
+    {
+      "TABLE_NAME": "USER_APP",
+      "COLUMN_NAME": "UXID",
+      "DATA_TYPE": "VARCHAR2",
+      "DATA_LENGTH": 100,
+      "DATA_PRECISION": null,
+      "DATA_SCALE": null
+    },
+    {
+      "TABLE_NAME": "USER_APP",
+      "COLUMN_NAME": "UPDATED_AT",
+      "DATA_TYPE": "DATE",
+      "DATA_LENGTH": 7,
+      "DATA_PRECISION": null,
+      "DATA_SCALE": null
+    }
+  ],
+  "USER_DATAS": [
+    {
+      "TABLE_NAME": "USER_DATAS",
+      "COLUMN_NAME": "USERNAME",
+      "DATA_TYPE": "VARCHAR2",
+      "DATA_LENGTH": 100,
+      "DATA_PRECISION": null,
+      "DATA_SCALE": null
+    },
+    {
+      "TABLE_NAME": "USER_DATAS",
+      "COLUMN_NAME": "MATRICULE",
+      "DATA_TYPE": "NUMBER",
+      "DATA_LENGTH": 22,
+      "DATA_PRECISION": null,
+      "DATA_SCALE": null
+    },
+    {
+      "TABLE_NAME": "USER_DATAS",
+      "COLUMN_NAME": "NOM",
+      "DATA_TYPE": "VARCHAR2",
+      "DATA_LENGTH": 100,
+      "DATA_PRECISION": null,
+      "DATA_SCALE": null
+    },
+    {
+      "TABLE_NAME": "USER_DATAS",
+      "COLUMN_NAME": "PRENOM",
+      "DATA_TYPE": "VARCHAR2",
+      "DATA_LENGTH": 100,
+      "DATA_PRECISION": null,
+      "DATA_SCALE": null
+    },
+    {
+      "TABLE_NAME": "USER_DATAS",
+      "COLUMN_NAME": "EMAIL",
+      "DATA_TYPE": "VARCHAR2",
+      "DATA_LENGTH": 100,
+      "DATA_PRECISION": null,
+      "DATA_SCALE": null
+    },
+    {
+      "TABLE_NAME": "USER_DATAS",
+      "COLUMN_NAME": "TEL",
+      "DATA_TYPE": "VARCHAR2",
+      "DATA_LENGTH": 20,
+      "DATA_PRECISION": null,
+      "DATA_SCALE": null
+    },
+    {
+      "TABLE_NAME": "USER_DATAS",
+      "COLUMN_NAME": "CIN",
+      "DATA_TYPE": "VARCHAR2",
+      "DATA_LENGTH": 20,
+      "DATA_PRECISION": null,
+      "DATA_SCALE": null
+    },
+    {
+      "TABLE_NAME": "USER_DATAS",
+      "COLUMN_NAME": "DIRECTION",
+      "DATA_TYPE": "VARCHAR2",
+      "DATA_LENGTH": 50,
+      "DATA_PRECISION": null,
+      "DATA_SCALE": null
+    },
+    {
+      "TABLE_NAME": "USER_DATAS",
+      "COLUMN_NAME": "DIR_NAME",
+      "DATA_TYPE": "VARCHAR2",
+      "DATA_LENGTH": 100,
+      "DATA_PRECISION": null,
+      "DATA_SCALE": null
+    },
+    {
+      "TABLE_NAME": "USER_DATAS",
+      "COLUMN_NAME": "SERVICE",
+      "DATA_TYPE": "VARCHAR2",
+      "DATA_LENGTH": 50,
+      "DATA_PRECISION": null,
+      "DATA_SCALE": null
+    },
+    {
+      "TABLE_NAME": "USER_DATAS",
+      "COLUMN_NAME": "CD_BUR",
+      "DATA_TYPE": "VARCHAR2",
+      "DATA_LENGTH": 20,
+      "DATA_PRECISION": null,
+      "DATA_SCALE": null
+    },
+    {
+      "TABLE_NAME": "USER_DATAS",
+      "COLUMN_NAME": "BUREAU",
+      "DATA_TYPE": "VARCHAR2",
+      "DATA_LENGTH": 100,
+      "DATA_PRECISION": null,
+      "DATA_SCALE": null
+    },
+    {
+      "TABLE_NAME": "USER_DATAS",
+      "COLUMN_NAME": "PHOTO",
+      "DATA_TYPE": "VARCHAR2",
+      "DATA_LENGTH": 100,
+      "DATA_PRECISION": null,
+      "DATA_SCALE": null
+    },
+    {
+      "TABLE_NAME": "USER_DATAS",
+      "COLUMN_NAME": "FIC_ID",
+      "DATA_TYPE": "VARCHAR2",
+      "DATA_LENGTH": 100,
+      "DATA_PRECISION": null,
+      "DATA_SCALE": null
+    },
+    {
+      "TABLE_NAME": "USER_DATAS",
+      "COLUMN_NAME": "DOMAINE",
+      "DATA_TYPE": "VARCHAR2",
+      "DATA_LENGTH": 20,
+      "DATA_PRECISION": null,
+      "DATA_SCALE": null
+    },
+    {
+      "TABLE_NAME": "USER_DATAS",
+      "COLUMN_NAME": "GRADE",
+      "DATA_TYPE": "VARCHAR2",
+      "DATA_LENGTH": 50,
+      "DATA_PRECISION": null,
+      "DATA_SCALE": null
+    },
+    {
+      "TABLE_NAME": "USER_DATAS",
+      "COLUMN_NAME": "ETABLISSEMENT",
+      "DATA_TYPE": "VARCHAR2",
+      "DATA_LENGTH": 100,
+      "DATA_PRECISION": null,
+      "DATA_SCALE": null
+    },
+    {
+      "TABLE_NAME": "USER_DATAS",
+      "COLUMN_NAME": "FONCTION",
+      "DATA_TYPE": "VARCHAR2",
+      "DATA_LENGTH": 100,
+      "DATA_PRECISION": null,
+      "DATA_SCALE": null
+    },
+    {
+      "TABLE_NAME": "USER_DATAS",
+      "COLUMN_NAME": "USER_TYPE",
+      "DATA_TYPE": "VARCHAR2",
+      "DATA_LENGTH": 50,
+      "DATA_PRECISION": null,
+      "DATA_SCALE": null
+    },
+    {
+      "TABLE_NAME": "USER_DATAS",
+      "COLUMN_NAME": "ADD_DATE",
+      "DATA_TYPE": "DATE",
+      "DATA_LENGTH": 7,
+      "DATA_PRECISION": null,
+      "DATA_SCALE": null
+    },
+    {
+      "TABLE_NAME": "USER_DATAS",
+      "COLUMN_NAME": "STATUT",
+      "DATA_TYPE": "VARCHAR2",
+      "DATA_LENGTH": 20,
+      "DATA_PRECISION": null,
+      "DATA_SCALE": null
+    },
+    {
+      "TABLE_NAME": "USER_DATAS",
+      "COLUMN_NAME": "APP_VALID",
+      "DATA_TYPE": "VARCHAR2",
+      "DATA_LENGTH": 20,
+      "DATA_PRECISION": null,
+      "DATA_SCALE": null
+    }
+  ],
+  "USER_GRADES": [
+    {
+      "TABLE_NAME": "USER_GRADES",
+      "COLUMN_NAME": "ID",
+      "DATA_TYPE": "NUMBER",
+      "DATA_LENGTH": 22,
+      "DATA_PRECISION": null,
+      "DATA_SCALE": 0
+    },
+    {
+      "TABLE_NAME": "USER_GRADES",
+      "COLUMN_NAME": "GRADE",
+      "DATA_TYPE": "VARCHAR2",
+      "DATA_LENGTH": 250,
+      "DATA_PRECISION": null,
+      "DATA_SCALE": null
+    },
+    {
+      "TABLE_NAME": "USER_GRADES",
+      "COLUMN_NAME": "ABREV",
+      "DATA_TYPE": "VARCHAR2",
+      "DATA_LENGTH": 50,
+      "DATA_PRECISION": null,
+      "DATA_SCALE": null
+    },
+    {
+      "TABLE_NAME": "USER_GRADES",
+      "COLUMN_NAME": "UXID",
+      "DATA_TYPE": "VARCHAR2",
+      "DATA_LENGTH": 100,
+      "DATA_PRECISION": null,
+      "DATA_SCALE": null
+    },
+    {
+      "TABLE_NAME": "USER_GRADES",
+      "COLUMN_NAME": "CREATED_AT",
+      "DATA_TYPE": "DATE",
+      "DATA_LENGTH": 7,
+      "DATA_PRECISION": null,
+      "DATA_SCALE": null
+    },
+    {
+      "TABLE_NAME": "USER_GRADES",
+      "COLUMN_NAME": "UPDATED_AT",
+      "DATA_TYPE": "DATE",
+      "DATA_LENGTH": 7,
+      "DATA_PRECISION": null,
+      "DATA_SCALE": null
+    },
+    {
+      "TABLE_NAME": "USER_GRADES",
+      "COLUMN_NAME": "IS_ACTIVE",
+      "DATA_TYPE": "NUMBER",
+      "DATA_LENGTH": 22,
+      "DATA_PRECISION": null,
+      "DATA_SCALE": 0
+    }
+  ],
+  "USER_SESSION": [
+    {
+      "TABLE_NAME": "USER_SESSION",
+      "COLUMN_NAME": "ID",
+      "DATA_TYPE": "NUMBER",
+      "DATA_LENGTH": 22,
+      "DATA_PRECISION": null,
+      "DATA_SCALE": null
+    },
+    {
+      "TABLE_NAME": "USER_SESSION",
+      "COLUMN_NAME": "MATRICULE",
+      "DATA_TYPE": "NUMBER",
+      "DATA_LENGTH": 22,
+      "DATA_PRECISION": null,
+      "DATA_SCALE": null
+    },
+    {
+      "TABLE_NAME": "USER_SESSION",
+      "COLUMN_NAME": "ID_SESSION",
+      "DATA_TYPE": "VARCHAR2",
+      "DATA_LENGTH": 500,
+      "DATA_PRECISION": null,
+      "DATA_SCALE": null
+    },
+    {
+      "TABLE_NAME": "USER_SESSION",
+      "COLUMN_NAME": "DEBUT",
+      "DATA_TYPE": "DATE",
+      "DATA_LENGTH": 7,
+      "DATA_PRECISION": null,
+      "DATA_SCALE": null
+    },
+    {
+      "TABLE_NAME": "USER_SESSION",
+      "COLUMN_NAME": "FIN",
+      "DATA_TYPE": "DATE",
+      "DATA_LENGTH": 7,
+      "DATA_PRECISION": null,
+      "DATA_SCALE": null
+    },
+    {
+      "TABLE_NAME": "USER_SESSION",
+      "COLUMN_NAME": "EXPIRE",
+      "DATA_TYPE": "NUMBER",
+      "DATA_LENGTH": 22,
+      "DATA_PRECISION": null,
+      "DATA_SCALE": null
+    },
+    {
+      "TABLE_NAME": "USER_SESSION",
+      "COLUMN_NAME": "USER_AGENT",
+      "DATA_TYPE": "VARCHAR2",
+      "DATA_LENGTH": 600,
+      "DATA_PRECISION": null,
+      "DATA_SCALE": null
+    },
+    {
+      "TABLE_NAME": "USER_SESSION",
+      "COLUMN_NAME": "IP_ADDR",
+      "DATA_TYPE": "VARCHAR2",
+      "DATA_LENGTH": 20,
+      "DATA_PRECISION": null,
+      "DATA_SCALE": null
+    },
+    {
+      "TABLE_NAME": "USER_SESSION",
+      "COLUMN_NAME": "EMAIL",
+      "DATA_TYPE": "VARCHAR2",
+      "DATA_LENGTH": 100,
+      "DATA_PRECISION": null,
+      "DATA_SCALE": null
+    },
+    {
+      "TABLE_NAME": "USER_SESSION",
+      "COLUMN_NAME": "USERNAME",
+      "DATA_TYPE": "VARCHAR2",
+      "DATA_LENGTH": 100,
+      "DATA_PRECISION": null,
+      "DATA_SCALE": null
+    },
+    {
+      "TABLE_NAME": "USER_SESSION",
+      "COLUMN_NAME": "ID_APP",
+      "DATA_TYPE": "NUMBER",
+      "DATA_LENGTH": 22,
+      "DATA_PRECISION": null,
+      "DATA_SCALE": null
+    }
+  ],
+  "V_PARDIRECTION": [
+    {
+      "TABLE_NAME": "V_PARDIRECTION",
+      "COLUMN_NAME": "DIRECTION",
+      "DATA_TYPE": "VARCHAR2",
+      "DATA_LENGTH": 50,
+      "DATA_PRECISION": null,
+      "DATA_SCALE": null
+    },
+    {
+      "TABLE_NAME": "V_PARDIRECTION",
+      "COLUMN_NAME": "NOMBRE",
+      "DATA_TYPE": "NUMBER",
+      "DATA_LENGTH": 22,
+      "DATA_PRECISION": null,
+      "DATA_SCALE": null
+    }
+  ],
+  "V_PRIVILEGE": [
+    {
+      "TABLE_NAME": "V_PRIVILEGE",
+      "COLUMN_NAME": "ID",
+      "DATA_TYPE": "NUMBER",
+      "DATA_LENGTH": 22,
+      "DATA_PRECISION": null,
+      "DATA_SCALE": null
+    },
+    {
+      "TABLE_NAME": "V_PRIVILEGE",
+      "COLUMN_NAME": "CD_APP",
+      "DATA_TYPE": "VARCHAR2",
+      "DATA_LENGTH": 20,
+      "DATA_PRECISION": null,
+      "DATA_SCALE": null
+    },
+    {
+      "TABLE_NAME": "V_PRIVILEGE",
+      "COLUMN_NAME": "SLUG",
+      "DATA_TYPE": "VARCHAR2",
+      "DATA_LENGTH": 70,
+      "DATA_PRECISION": null,
+      "DATA_SCALE": null
+    },
+    {
+      "TABLE_NAME": "V_PRIVILEGE",
+      "COLUMN_NAME": "PRIVILEGE",
+      "DATA_TYPE": "VARCHAR2",
+      "DATA_LENGTH": 150,
+      "DATA_PRECISION": null,
+      "DATA_SCALE": null
+    },
+    {
+      "TABLE_NAME": "V_PRIVILEGE",
+      "COLUMN_NAME": "APP_NOM",
+      "DATA_TYPE": "VARCHAR2",
+      "DATA_LENGTH": 100,
+      "DATA_PRECISION": null,
+      "DATA_SCALE": null
+    },
+    {
+      "TABLE_NAME": "V_PRIVILEGE",
+      "COLUMN_NAME": "DESCRIPTION",
+      "DATA_TYPE": "VARCHAR2",
+      "DATA_LENGTH": 500,
+      "DATA_PRECISION": null,
+      "DATA_SCALE": null
+    },
+    {
+      "TABLE_NAME": "V_PRIVILEGE",
+      "COLUMN_NAME": "TYPE",
+      "DATA_TYPE": "VARCHAR2",
+      "DATA_LENGTH": 50,
+      "DATA_PRECISION": null,
+      "DATA_SCALE": null
+    },
+    {
+      "TABLE_NAME": "V_PRIVILEGE",
+      "COLUMN_NAME": "ROLE",
+      "DATA_TYPE": "NUMBER",
+      "DATA_LENGTH": 22,
+      "DATA_PRECISION": null,
+      "DATA_SCALE": null
+    },
+    {
+      "TABLE_NAME": "V_PRIVILEGE",
+      "COLUMN_NAME": "ACCES",
+      "DATA_TYPE": "NUMBER",
+      "DATA_LENGTH": 22,
+      "DATA_PRECISION": null,
+      "DATA_SCALE": null
+    }
+  ]
+}

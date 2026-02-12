@@ -53,22 +53,30 @@ Optional settings:
 ORACLE_DEFAULT_SCHEMA=HR  # Default schema if different from user
 ```
 
-## Usage with Claude Desktop
+## Usage with Claude Desktop / Trae / VS Code
 
-Add to your Claude Desktop configuration file:
+This configuration works for any MCP-compatible client (Claude Desktop, Trae, VS Code with MCP extension).
 
-**macOS**: `~/Library/Application Support/Claude/claude_desktop_config.json`  
-**Windows**: `%APPDATA%\Claude\claude_desktop_config.json`
+A pre-configured file `mcp-config.json` has been generated in the project root with your local settings.
+
+You can copy the following configuration into your MCP client's settings file:
+
+- **Trae**: Add to your workspace or global settings.
+- **VS Code**: Use with the MCP extension, add to `.vscode/settings.json` or global settings.
+- **Claude Desktop**: `%APPDATA%\Claude\claude_desktop_config.json` (Windows)
 
 ```json
 {
   "mcpServers": {
     "oracle": {
       "command": "node",
-      "args": ["/path/to/oracle-mcp/src/index.js"],
+      "args": [
+        "D:/DockerProjects/srv56oci8/docker_php56-oci8-srv/web/mcp-oracle/src/index.js"
+      ],
+      "cwd": "D:/DockerProjects/srv56oci8/docker_php56-oci8-srv/web/mcp-oracle",
       "env": {
-        "ORACLE_CONNECTION_STRING": "hostname:1521/service_name",
-        "ORACLE_USER": "your_username",
+        "ORACLE_CONNECTION_STRING": "10.2.249.211:1521/nifdb",
+        "ORACLE_USER": "dgigrh",
         "ORACLE_PASSWORD": "your_password"
       }
     }
@@ -76,45 +84,8 @@ Add to your Claude Desktop configuration file:
 }
 ```
 
-Alternatively, use npx if you publish the package:
-```json
-{
-  "mcpServers": {
-    "oracle": {
-      "command": "npx",
-      "args": ["-y", "oracle-mcp-server"],
-      "env": {
-        "ORACLE_CONNECTION_STRING": "hostname:1521/service_name",
-        "ORACLE_USER": "your_username",
-        "ORACLE_PASSWORD": "your_password"
-      }
-    }
-  }
-}
-```
-
-## Usage with Claude Code
-
-For Claude Code, add to `~/.claude.json`:
-
-```json
-{
-  "mcpServers": {
-    "oracle": {
-      "type": "stdio",
-      "command": "node",
-      "args": ["/path/to/oracle-mcp/src/index.js"],
-      "env": {
-        "ORACLE_CONNECTION_STRING": "hostname:1521/service_name",
-        "ORACLE_USER": "your_username",
-        "ORACLE_PASSWORD": "your_password"
-      }
-    }
-  }
-}
-```
-
-After updating the configuration, restart Claude Desktop or Claude Code.
+> **Note**: Replace `your_password` with your actual password if not using the generated file.
+> The generated `mcp-config.json` contains your actual credentials from `.env`.
 
 ## Available Tools
 

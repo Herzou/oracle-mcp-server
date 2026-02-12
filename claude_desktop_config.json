@@ -1,0 +1,13 @@
+{
+  "mcpServers": {
+    "oracle": {
+      "command": "cmd.exe",
+      "args": [
+        "/c",
+        "D:/DockerProjects/srv56oci8/docker_php56-oci8-srv/web/mcp-oracle/start_mcp.bat"
+      ],
+      "cwd": "D:/DockerProjects/srv56oci8/docker_php56-oci8-srv/web/mcp-oracle",
+      "env": {}
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "mcpServers": {
+    "oracle": {
+      "command": "C:/Program Files/nodejs/node.exe",
+      "args": [
+        "D:/DockerProjects/srv56oci8/docker_php56-oci8-srv/web/mcp-oracle/src/index.js"
+      ],
+      "cwd": "D:/DockerProjects/srv56oci8/docker_php56-oci8-srv/web/mcp-oracle",
+      "env": {
+        "ORACLE_CONNECTION_STRING": "10.2.249.211:1521/nifdb",
+        "ORACLE_USER": "dgigrh",
+        "ORACLE_PASSWORD": "159753"
+      }
+    }
+  }
+}
