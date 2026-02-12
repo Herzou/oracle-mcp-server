@@ -1,0 +1,72 @@
+[
+  {
+    "ID": 1,
+    "NOM": "Hery Zo",
+    "SERVICE": "SSIF",
+    "CD_BUR": "110",
+    "EMAIL": "herzou.net2job@gmail.com",
+    "TEL": "0320210612",
+    "DESCRIPTION": null,
+    "TYPE": "VALID",
+    "UXID": "682b924ac8915",
+    "CREATED_AT": null,
+    "UPDATED_AT": null,
+    "IS_ACTIVE": null
+  },
+  {
+    "ID": 10,
+    "NOM": "Your Admin",
+    "SERVICE": "SSIF",
+    "CD_BUR": "110",
+    "EMAIL": "mytest@test.com",
+    "TEL": "0651254567",
+    "DESCRIPTION": null,
+    "TYPE": "TEST",
+    "UXID": "682b96171579b",
+    "CREATED_AT": null,
+    "UPDATED_AT": null,
+    "IS_ACTIVE": null
+  },
+  {
+    "ID": 3,
+    "NOM": "Sandra",
+    "SERVICE": "SSIF",
+    "CD_BUR": "110",
+    "EMAIL": "raharisonsandra@yahoo.fr",
+    "TEL": "0328852150",
+    "DESCRIPTION": null,
+    "TYPE": "VALID",
+    "UXID": "682b924ade3f9",
+    "CREATED_AT": null,
+    "UPDATED_AT": null,
+    "IS_ACTIVE": null
+  },
+  {
+    "ID": 2,
+    "NOM": "DGI-Portal",
+    "SERVICE": "SSIF",
+    "CD_BUR": "110",
+    "EMAIL": "dgi.portal.gmail.com",
+    "TEL": "0328852150",
+    "DESCRIPTION": null,
+    "TYPE": "TEST",
+    "UXID": "682b924ae905c",
+    "CREATED_AT": null,
+    "UPDATED_AT": null,
+    "IS_ACTIVE": null
+  },
+  {
+    "ID": 8,
+    "NOM": "Admin-Dgi-Portal",
+    "SERVICE": "SSIF",
+    "CD_BUR": "110",
+    "EMAIL": "admin.mportal@impots.mg",
+    "TEL": "0354875878",
+    "DESCRIPTION": null,
+    "TYPE": "TEST",
+    "UXID": "682b924b06718",
+    "CREATED_AT": null,
+    "UPDATED_AT": null,
+    "IS_ACTIVE": null
+  }
+]

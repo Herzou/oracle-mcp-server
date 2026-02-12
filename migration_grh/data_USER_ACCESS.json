@@ -1,0 +1,32 @@
+[
+    {
+      "ID": 1,
+      "ACCESS": "Gérer les Applications du portail",
+      "ABREV": "ADD_APP",
+      "UXID": "68628b023145x",
+      "CREATED_AT": "2025-06-29T21:00:00.000Z",
+      "UPDATED_AT": "2025-06-30T18:20:13.000Z",
+      "USER_UXID": "683ec145f296a",
+      "IS_ACTIVE": 1
+    },
+    {
+      "ID": 3,
+      "ACCESS": "Autoriser un utilisateur aux applications",
+      "ABREV": "AUTORIZE_USER",
+      "UXID": "68658ab6396f3",
+      "CREATED_AT": "2025-07-02T16:38:30.000Z",
+      "UPDATED_AT": null,
+      "USER_UXID": "683ec145f296a",
+      "IS_ACTIVE": null
+    },
+    {
+      "ID": 2,
+      "ACCESS": "Gérer les Directions et Services",
+      "ABREV": "ADMIN_DIR",
+      "UXID": "68628b023199b",
+      "CREATED_AT": "2025-06-30T10:02:58.000Z",
+      "UPDATED_AT": "2025-07-02T16:39:33.000Z",
+      "USER_UXID": "683ec145f296a",
+      "IS_ACTIVE": null
+    }
+]

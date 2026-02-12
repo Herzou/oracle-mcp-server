@@ -1,0 +1,242 @@
+[
+    {
+      "ID": 9,
+      "KEY": "YJNEczdVnVuzQB6LlCBjHNHkBIHx0Rws62ugDK6f",
+      "ALL_ACCESS": 0,
+      "CONTROLLER": "renseignements/entreprise",
+      "DATE_CREATED": "2022-03-14T06:07:01.000Z",
+      "DATE_MODIFIED": "2024-07-28T16:28:35.000Z"
+    },
+    {
+      "ID": 11,
+      "KEY": "QUHO0Pc2gpUkQMY8lWYbF1vIzGDyKd0gGGRJnvDZ",
+      "ALL_ACCESS": 0,
+      "CONTROLLER": "verification/contrib",
+      "DATE_CREATED": "2022-04-11T10:59:31.000Z",
+      "DATE_MODIFIED": null
+    },
+    {
+      "ID": 30,
+      "KEY": "sqY4PjS2NJQUsgQPTmJlCEHyzvDJBhGMUPpDsHUL",
+      "ALL_ACCESS": 0,
+      "CONTROLLER": "localites/mada",
+      "DATE_CREATED": "2024-10-29T08:15:21.000Z",
+      "DATE_MODIFIED": null
+    },
+    {
+      "ID": 13,
+      "KEY": "AbuxZmcNY8t8LCf6tmsrpW0KcXXubKxH2fI9M35w",
+      "ALL_ACCESS": 0,
+      "CONTROLLER": "verification/contrib",
+      "DATE_CREATED": "2022-05-02T15:09:55.000Z",
+      "DATE_MODIFIED": null
+    },
+    {
+      "ID": 14,
+      "KEY": "zmybI7WKkK8U4VyxHL1SBSHLdSvj9AXxoIi2bMY5",
+      "ALL_ACCESS": 0,
+      "CONTROLLER": "immatri/demande",
+      "DATE_CREATED": "2022-06-22T07:23:34.000Z",
+      "DATE_MODIFIED": null
+    },
+    {
+      "ID": 15,
+      "KEY": "zmybI7WKkK8U4VyxHL1SBSHLdSvj9AXxoIi2bMY5",
+      "ALL_ACCESS": 0,
+      "CONTROLLER": "verification/contrib",
+      "DATE_CREATED": "2022-06-22T07:23:50.000Z",
+      "DATE_MODIFIED": null
+    },
+    {
+      "ID": 16,
+      "KEY": "y1nrHxBez6fibECkaiMY3i17DRjakqFFWjeIyAor",
+      "ALL_ACCESS": 0,
+      "CONTROLLER": "codes/activites",
+      "DATE_CREATED": "2023-01-20T10:13:39.000Z",
+      "DATE_MODIFIED": null
+    },
+    {
+      "ID": 17,
+      "KEY": "y1nrHxBez6fibECkaiMY3i17DRjakqFFWjeIyAor",
+      "ALL_ACCESS": 0,
+      "CONTROLLER": "recherche/contribuables",
+      "DATE_CREATED": "2023-01-20T10:18:43.000Z",
+      "DATE_MODIFIED": null
+    },
+    {
+      "ID": 19,
+      "KEY": "AbuxZmcNY8t8LCf6tmsrpW0KcXXubKxH2fI9M35w",
+      "ALL_ACCESS": 0,
+      "CONTROLLER": "recherche/contribuables",
+      "DATE_CREATED": "2024-03-27T07:05:17.000Z",
+      "DATE_MODIFIED": null
+    },
+    {
+      "ID": 24,
+      "KEY": "YJNEczdVnVuzQB6LlCBjHNHkBIHx0Rws62ugDK6f",
+      "ALL_ACCESS": 0,
+      "CONTROLLER": "immatri/demande",
+      "DATE_CREATED": "2024-08-01T10:16:56.000Z",
+      "DATE_MODIFIED": null
+    },
+    {
+      "ID": 10,
+      "KEY": "QUHO0Pc2gpUkQMY8lWYbF1vIzGDyKd0gGGRJnvDZ",
+      "ALL_ACCESS": 0,
+      "CONTROLLER": "renseignements/entreprise",
+      "DATE_CREATED": "2022-04-11T10:58:50.000Z",
+      "DATE_MODIFIED": null
+    },
+    {
+      "ID": 25,
+      "KEY": "YJNEczdVnVuzQB6LlCBjHNHkBIHx0Rws62ugDK6f",
+      "ALL_ACCESS": 0,
+      "CONTROLLER": "vehicules/liste",
+      "DATE_CREATED": "2024-08-02T17:20:33.000Z",
+      "DATE_MODIFIED": "2024-08-02T17:25:04.000Z"
+    },
+    {
+      "ID": 34,
+      "KEY": "qnNnPUS216RrV85q6QaztbEAYdiLtsrzQIcjSaKf",
+      "ALL_ACCESS": 0,
+      "CONTROLLER": "recherche/contribuables",
+      "DATE_CREATED": "2025-07-16T19:16:28.000Z",
+      "DATE_MODIFIED": null
+    },
+    {
+      "ID": 7,
+      "KEY": "YJNEczdVnVuzQB6LlCBjHNHkBIHx0Rws62ugDK6f",
+      "ALL_ACCESS": 0,
+      "CONTROLLER": "verification/contrib",
+      "DATE_CREATED": "2022-03-01T08:15:49.000Z",
+      "DATE_MODIFIED": "2024-08-02T17:22:01.000Z"
+    },
+    {
+      "ID": 8,
+      "KEY": "w5x9oBSwN2K2Z0kwks3NSXybDQgvAcgKRUpe64bW",
+      "ALL_ACCESS": 1,
+      "CONTROLLER": "localites/madas",
+      "DATE_CREATED": "2022-03-09T07:15:24.000Z",
+      "DATE_MODIFIED": "2022-03-09T07:19:00.000Z"
+    },
+    {
+      "ID": 12,
+      "KEY": "AbuxZmcNY8t8LCf6tmsrpW0KcXXubKxH2fI9M35w",
+      "ALL_ACCESS": 0,
+      "CONTROLLER": "renseignements/entreprise",
+      "DATE_CREATED": "2022-05-02T15:09:24.000Z",
+      "DATE_MODIFIED": null
+    },
+    {
+      "ID": 18,
+      "KEY": "y1nrHxBez6fibECkaiMY3i17DRjakqFFWjeIyAor",
+      "ALL_ACCESS": 0,
+      "CONTROLLER": "declarations/irsa",
+      "DATE_CREATED": "2023-01-20T10:24:13.000Z",
+      "DATE_MODIFIED": null
+    },
+    {
+      "ID": 20,
+      "KEY": "w5x9oBSwN2K2Z0kwks3NSXybDQgvAcgKRUpe64bW",
+      "ALL_ACCESS": 0,
+      "CONTROLLER": "verification/liste",
+      "DATE_CREATED": "2024-04-15T16:33:30.000Z",
+      "DATE_MODIFIED": null
+    },
+    {
+      "ID": 21,
+      "KEY": "DtGOUyJ57MzeyCfTYwWEVZsQP8eblcSxuLThoY6Q",
+      "ALL_ACCESS": 1,
+      "CONTROLLER": "verification/liste",
+      "DATE_CREATED": "2024-04-15T16:35:10.000Z",
+      "DATE_MODIFIED": "2024-07-28T16:34:56.000Z"
+    },
+    {
+      "ID": 28,
+      "KEY": "JP09aiCQ9fDRLAs1PNqFjz65eGiSkviSdGy9KNYX",
+      "ALL_ACCESS": 0,
+      "CONTROLLER": "recherche/contribuables",
+      "DATE_CREATED": "2024-10-22T11:34:55.000Z",
+      "DATE_MODIFIED": null
+    },
+    {
+      "ID": 29,
+      "KEY": "JP09aiCQ9fDRLAs1PNqFjz65eGiSkviSdGy9KNYX",
+      "ALL_ACCESS": 0,
+      "CONTROLLER": "renseignements/entreprise",
+      "DATE_CREATED": "2024-10-22T11:35:18.000Z",
+      "DATE_MODIFIED": null
+    },
+    {
+      "ID": 31,
+      "KEY": "sqY4PjS2NJQUsgQPTmJlCEHyzvDJBhGMUPpDsHUL",
+      "ALL_ACCESS": 0,
+      "CONTROLLER": "renseignements/entreprise",
+      "DATE_CREATED": "2024-10-29T08:15:39.000Z",
+      "DATE_MODIFIED": null
+    },
+    {
+      "ID": 32,
+      "KEY": "sqY4PjS2NJQUsgQPTmJlCEHyzvDJBhGMUPpDsHUL",
+      "ALL_ACCESS": 0,
+      "CONTROLLER": "recherche/contribuables",
+      "DATE_CREATED": "2024-10-29T08:15:48.000Z",
+      "DATE_MODIFIED": null
+    },
+    {
+      "ID": 1,
+      "KEY": "YJNEczdVnVuzQB6LlCBjHNHkBIHx0Rws62ugDK6f",
+      "ALL_ACCESS": 0,
+      "CONTROLLER": "localites/mada",
+      "DATE_CREATED": "2021-11-10T09:00:00.000Z",
+      "DATE_MODIFIED": "2024-07-28T16:27:08.000Z"
+    },
+    {
+      "ID": 2,
+      "KEY": "YJNEczdVnVuzQB6LlCBjHNHkBIHx0Rws62ugDK6f",
+      "ALL_ACCESS": 0,
+      "CONTROLLER": "immatri/listes",
+      "DATE_CREATED": "2021-11-18T09:00:00.000Z",
+      "DATE_MODIFIED": "2022-11-22T05:49:18.000Z"
+    },
+    {
+      "ID": 3,
+      "KEY": "YJNEczdVnVuzQB6LlCBjHNHkBIHx0Rws62ugDK6f",
+      "ALL_ACCESS": 0,
+      "CONTROLLER": "impots/listes",
+      "DATE_CREATED": "2021-11-18T09:00:00.000Z",
+      "DATE_MODIFIED": "2022-11-22T05:49:52.000Z"
+    },
+    {
+      "ID": 4,
+      "KEY": "YJNEczdVnVuzQB6LlCBjHNHkBIHx0Rws62ugDK6f",
+      "ALL_ACCESS": 0,
+      "CONTROLLER": "renseignements/direction",
+      "DATE_CREATED": "2021-11-18T09:00:00.000Z",
+      "DATE_MODIFIED": "2022-11-22T05:50:50.000Z"
+    },
+    {
+      "ID": 5,
+      "KEY": "YJNEczdVnVuzQB6LlCBjHNHkBIHx0Rws62ugDK6f",
+      "ALL_ACCESS": 0,
+      "CONTROLLER": "vehicules/exploit",
+      "DATE_CREATED": "2021-11-18T09:00:00.000Z",
+      "DATE_MODIFIED": "2022-11-22T05:51:47.000Z"
+    },
+    {
+      "ID": 6,
+      "KEY": "qSRtLxfy8PXjunDAAwb9hHUz9dga11BHsp3FlEtr",
+      "ALL_ACCESS": 1,
+      "CONTROLLER": "admin/keys",
+      "DATE_CREATED": "2021-11-19T09:00:00.000Z",
+      "DATE_MODIFIED": "2021-11-25T06:07:00.000Z"
+    },
+    {
+      "ID": 7,
+      "KEY": "YJNEczdVnVuzQB6LlCBjHNHkBIHx0Rws62ugDK6f",
+      "ALL_ACCESS": 0,
+      "CONTROLLER": "verification/liste",
+      "DATE_CREATED": "2021-11-29T09:00:00.000Z",
+      "DATE_MODIFIED": "2024-08-02T17:22:01.000Z"
+    }
+]

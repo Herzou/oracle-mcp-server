@@ -1,0 +1,222 @@
+[
+  {
+    "ID": 1,
+    "NOM": "Direction Générale",
+    "ABREV": "DGI",
+    "CODE_DIR": 1010,
+    "UXID": "683dad2ee9a07",
+    "CREATED_AT": null,
+    "UPDATED_AT": "2025-06-02T10:54:54.000Z",
+    "IS_ACTIVE": 1
+  },
+  {
+    "ID": 2,
+    "NOM": "Direction de la Legislation Fiscale et du Contentieux",
+    "ABREV": "DLFC",
+    "CODE_DIR": 1011,
+    "UXID": "683dad2f0fec2",
+    "CREATED_AT": null,
+    "UPDATED_AT": "2025-06-02T10:54:55.000Z",
+    "IS_ACTIVE": 1
+  },
+  {
+    "ID": 3,
+    "NOM": "Direction de la Recherche et du Controle Fiscal",
+    "ABREV": "DRCF",
+    "CODE_DIR": 1012,
+    "UXID": "683dad2f26fa7",
+    "CREATED_AT": null,
+    "UPDATED_AT": "2025-06-02T10:54:55.000Z",
+    "IS_ACTIVE": 1
+  },
+  {
+    "ID": 4,
+    "NOM": "Direction de la Programmation des Ressources",
+    "ABREV": "DPR",
+    "CODE_DIR": 1013,
+    "UXID": "683dad2f4a0a5",
+    "CREATED_AT": null,
+    "UPDATED_AT": "2025-06-02T10:54:55.000Z",
+    "IS_ACTIVE": 1
+  },
+  {
+    "ID": 5,
+    "NOM": "Direction de la Formation professionnelle",
+    "ABREV": "DFP",
+    "CODE_DIR": 1014,
+    "UXID": "683dad2f735fb",
+    "CREATED_AT": null,
+    "UPDATED_AT": "2025-06-02T10:54:55.000Z",
+    "IS_ACTIVE": 1
+  },
+  {
+    "ID": 6,
+    "NOM": "Direction Technique",
+    "ABREV": "DITEC",
+    "CODE_DIR": 1015,
+    "UXID": "683dad2f86666",
+    "CREATED_AT": null,
+    "UPDATED_AT": "2025-06-02T10:54:55.000Z",
+    "IS_ACTIVE": 1
+  },
+  {
+    "ID": 7,
+    "NOM": "Direction des Grandes Entreprises",
+    "ABREV": "DGE",
+    "CODE_DIR": 1016,
+    "UXID": "683dad2fada5a",
+    "CREATED_AT": null,
+    "UPDATED_AT": "2025-06-02T10:54:55.000Z",
+    "IS_ACTIVE": 1
+  },
+  {
+    "ID": 8,
+    "NOM": "Direction Régionale des Impôts Alaotra Mangoro",
+    "ABREV": "DRI-ALMGR",
+    "CODE_DIR": 1017,
+    "UXID": "683dad2fc471f",
+    "CREATED_AT": null,
+    "UPDATED_AT": "2025-06-02T10:54:55.000Z",
+    "IS_ACTIVE": 1
+  },
+  {
+    "ID": 9,
+    "NOM": "Direction Régionale des Impôts Analamanga",
+    "ABREV": "DRI-ANG",
+    "CODE_DIR": 1018,
+    "UXID": "683dad2fdabbb",
+    "CREATED_AT": null,
+    "UPDATED_AT": "2025-06-02T10:54:55.000Z",
+    "IS_ACTIVE": 1
+  },
+  {
+    "ID": 10,
+    "NOM": "Direction Régionale des Impôts Anosy",
+    "ABREV": "DRI-ANS",
+    "CODE_DIR": 1019,
+    "UXID": "683dad3006b12",
+    "CREATED_AT": null,
+    "UPDATED_AT": "2025-06-02T10:54:56.000Z",
+    "IS_ACTIVE": 1
+  },
+  {
+    "ID": 11,
+    "NOM": "Direction Régionale des Impôts Atsimo Andrefana",
+    "ABREV": "DRI-ATSAND",
+    "CODE_DIR": 1020,
+    "UXID": "683dad304e34c",
+    "CREATED_AT": null,
+    "UPDATED_AT": "2025-06-02T10:54:56.000Z",
+    "IS_ACTIVE": 1
+  },
+  {
+    "ID": 12,
+    "NOM": "Direction Régionale des Impôts Atsinanana",
+    "ABREV": "DRI-ATSN",
+    "CODE_DIR": 1021,
+    "UXID": "683dad30610cb",
+    "CREATED_AT": null,
+    "UPDATED_AT": "2025-06-02T10:54:56.000Z",
+    "IS_ACTIVE": 1
+  },
+  {
+    "ID": 13,
+    "NOM": "Direction Régionale des Impôts Boeny",
+    "ABREV": "DRI-BN",
+    "CODE_DIR": 1022,
+    "UXID": "683dad308174d",
+    "CREATED_AT": null,
+    "UPDATED_AT": "2025-06-02T10:54:56.000Z",
+    "IS_ACTIVE": 1
+  },
+  {
+    "ID": 14,
+    "NOM": "Direction Régionale des Impôts Diana",
+    "ABREV": "DRI-DN",
+    "CODE_DIR": 1023,
+    "UXID": "683dad3097223",
+    "CREATED_AT": null,
+    "UPDATED_AT": "2025-06-02T10:54:56.000Z",
+    "IS_ACTIVE": 1
+  },
+  {
+    "ID": 15,
+    "NOM": "Direction Régionale des Impôts Haute Matsiatra",
+    "ABREV": "DRI-HM",
+    "CODE_DIR": 1024,
+    "UXID": "683dad30b7349",
+    "CREATED_AT": null,
+    "UPDATED_AT": "2025-06-02T10:54:56.000Z",
+    "IS_ACTIVE": 1
+  },
+  {
+    "ID": 16,
+    "NOM": "Direction Régionale des Impôts Itasy",
+    "ABREV": "DRI-ITS",
+    "CODE_DIR": 1025,
+    "UXID": "683dad30cdb80",
+    "CREATED_AT": null,
+    "UPDATED_AT": "2025-06-02T10:54:56.000Z",
+    "IS_ACTIVE": 1
+  },
+  {
+    "ID": 17,
+    "NOM": "Direction Régionale des Impôts Menabe",
+    "ABREV": "DRI-MB",
+    "CODE_DIR": 1026,
+    "UXID": "683dad30e374c",
+    "CREATED_AT": null,
+    "UPDATED_AT": "2025-06-02T10:54:56.000Z",
+    "IS_ACTIVE": 1
+  },
+  {
+    "ID": 18,
+    "NOM": "Direction Régionale des Impôts Sava",
+    "ABREV": "DRI-SV",
+    "CODE_DIR": 1027,
+    "UXID": "683dad30ef4ca",
+    "CREATED_AT": null,
+    "UPDATED_AT": "2025-06-02T10:54:56.000Z",
+    "IS_ACTIVE": 1
+  },
+  {
+    "ID": 19,
+    "NOM": "Direction Régionale des Impôts Sofia",
+    "ABREV": "DRI-SF",
+    "CODE_DIR": 1028,
+    "UXID": "683dad315b939",
+    "CREATED_AT": null,
+    "UPDATED_AT": "2025-06-02T10:54:57.000Z",
+    "IS_ACTIVE": 1
+  },
+  {
+    "ID": 20,
+    "NOM": "Direction Régionale des Impôts Vakinankaratra",
+    "ABREV": "DRI-VKN",
+    "CODE_DIR": 1029,
+    "UXID": "683dad3174150",
+    "CREATED_AT": null,
+    "UPDATED_AT": "2025-06-02T10:54:57.000Z",
+    "IS_ACTIVE": 1
+  },
+  {
+    "ID": 21,
+    "NOM": "Direction Régionale des Impôts Vatovavy fitovinany",
+    "ABREV": "DRI-V7V",
+    "CODE_DIR": 1030,
+    "UXID": "683dad31866d6",
+    "CREATED_AT": null,
+    "UPDATED_AT": "2025-06-02T10:54:57.000Z",
+    "IS_ACTIVE": 1
+  },
+  {
+    "ID": 32,
+    "NOM": "Lorem Ipsum Idolor Ames",
+    "ABREV": "IDOLOR",
+    "CODE_DIR": 20203,
+    "UXID": "683dfefc701c4",
+    "CREATED_AT": "2025-06-02T16:43:56.000Z",
+    "UPDATED_AT": "2025-06-02T16:54:01.000Z",
+    "IS_ACTIVE": 1
+  }
+]

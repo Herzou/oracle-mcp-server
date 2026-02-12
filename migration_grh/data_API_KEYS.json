@@ -1,0 +1,123 @@
+[
+    {
+      "ID": 8,
+      "USER_ID": 6,
+      "TAG": "Dev-BFM",
+      "SECRETS": "AbuxZmcNY8t8LCf6tmsrpW0KcXXubKxH2fI9M35w",
+      "LEVELS": 0,
+      "IGNORE_LIMITS": 0,
+      "IS_PRIVATE_KEY": 0,
+      "IP_ADDRESSES": null,
+      "DATE_CREATED": "2022-05-02T15:02:55.000Z"
+    },
+    {
+      "ID": 9,
+      "USER_ID": 8,
+      "TAG": "Ingenosya",
+      "SECRETS": "zmybI7WKkK8U4VyxHL1SBSHLdSvj9AXxoIi2bMY5",
+      "LEVELS": 0,
+      "IGNORE_LIMITS": null,
+      "IS_PRIVATE_KEY": null,
+      "IP_ADDRESSES": null,
+      "DATE_CREATED": "2022-06-22T07:20:31.000Z"
+    },
+    {
+      "ID": 10,
+      "USER_ID": 9,
+      "TAG": "CNAPS-Inter",
+      "SECRETS": "y1nrHxBez6fibECkaiMY3i17DRjakqFFWjeIyAor",
+      "LEVELS": 0,
+      "IGNORE_LIMITS": null,
+      "IS_PRIVATE_KEY": null,
+      "IP_ADDRESSES": null,
+      "DATE_CREATED": "2023-01-20T10:10:23.000Z"
+    },
+    {
+      "ID": 12,
+      "USER_ID": 11,
+      "TAG": "Stagiaire-Ssif",
+      "SECRETS": "sqY4PjS2NJQUsgQPTmJlCEHyzvDJBhGMUPpDsHUL",
+      "LEVELS": 0,
+      "IGNORE_LIMITS": 0,
+      "IS_PRIVATE_KEY": 0,
+      "IP_ADDRESSES": null,
+      "DATE_CREATED": "2024-10-29T08:11:57.000Z"
+    },
+    {
+      "ID": 11,
+      "USER_ID": 10,
+      "TAG": "Trésor Publique",
+      "SECRETS": "JP09aiCQ9fDRLAs1PNqFjz65eGiSkviSdGy9KNYX",
+      "LEVELS": 0,
+      "IGNORE_LIMITS": 0,
+      "IS_PRIVATE_KEY": null,
+      "IP_ADDRESSES": null,
+      "DATE_CREATED": "2024-10-22T11:32:38.000Z"
+    },
+    {
+      "ID": 5,
+      "USER_ID": 7,
+      "TAG": "Developpeur-SSIF",
+      "SECRETS": "DtGOUyJ57MzeyCfTYwWEVZsQP8eblcSxuLThoY6Q",
+      "LEVELS": 0,
+      "IGNORE_LIMITS": null,
+      "IS_PRIVATE_KEY": null,
+      "IP_ADDRESSES": null,
+      "DATE_CREATED": "2022-03-09T07:14:26.000Z"
+    },
+    {
+      "ID": 2,
+      "USER_ID": 1,
+      "TAG": "EDBM-Orinasa",
+      "SECRETS": "YJNEczdVnVuzQB6LlCBjHNHkBIHx0Rws62ugDK6f",
+      "LEVELS": 0,
+      "IGNORE_LIMITS": 0,
+      "IS_PRIVATE_KEY": 0,
+      "IP_ADDRESSES": null,
+      "DATE_CREATED": "2021-11-24T21:00:00.000Z"
+    },
+    {
+      "ID": 3,
+      "USER_ID": 2,
+      "TAG": "Admin",
+      "SECRETS": "qSRtLxfy8PXjunDAAwb9hHUz9dga11BHsp3FlEtr",
+      "LEVELS": 0,
+      "IGNORE_LIMITS": 0,
+      "IS_PRIVATE_KEY": 0,
+      "IP_ADDRESSES": "NULL",
+      "DATE_CREATED": "2020-06-07T21:00:00.000Z"
+    },
+    {
+      "ID": 4,
+      "USER_ID": 2,
+      "TAG": "Superviseur",
+      "SECRETS": "pLSy6ZkJRLEtzmdgSDC0JNJGMYPzDX5RyAiVvBCO",
+      "LEVELS": 1,
+      "IGNORE_LIMITS": 0,
+      "IS_PRIVATE_KEY": 0,
+      "IP_ADDRESSES": null,
+      "DATE_CREATED": "2021-11-24T21:00:00.000Z"
+    },
+    {
+      "ID": 6,
+      "USER_ID": 5,
+      "TAG": "Dev-BCMM",
+      "SECRETS": "QUHO0Pc2gpUkQMY8lWYbF1vIzGDyKd0gGGRJnvDZ",
+      "LEVELS": 0,
+      "IGNORE_LIMITS": 0,
+      "IS_PRIVATE_KEY": 0,
+      "IP_ADDRESSES": null,
+      "DATE_CREATED": "2022-04-11T10:56:10.000Z"
+    },
+    {
+      "ID": 13,
+      "USER_ID": 12,
+      "TAG": "Dgi-CRM",
+      "SECRETS": "qnNnPUS216RrV85q6QaztbEAYdiLtsrzQIcjSaKf",
+      "LEVELS": 0,
+      "IGNORE_LIMITS": 0,
+      "IS_PRIVATE_KEY": 0,
+      "IP_ADDRESSES": null,
+      "DATE_CREATED": "2025-07-16T19:14:57.000Z"
+    }
+]

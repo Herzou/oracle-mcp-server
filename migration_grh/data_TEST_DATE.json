@@ -1,0 +1,20 @@
+[
+    {
+      "DATE_JOUR": "2012-07-18T10:27:18.000Z",
+      "STRING_2": null,
+      "STRING_1": null,
+      "UXID": "683dab2537cb1",
+      "UPDATED_AT": "2025-06-02T10:46:13.000Z",
+      "ID": 1,
+      "TEST": 20
+    },
+    {
+      "DATE_JOUR": "2017-07-17T21:00:00.000Z",
+      "STRING_2": null,
+      "STRING_1": null,
+      "UXID": "683da9e1eff44",
+      "UPDATED_AT": "2025-06-02T10:40:49.000Z",
+      "ID": 2,
+      "TEST": 40
+    }
+]

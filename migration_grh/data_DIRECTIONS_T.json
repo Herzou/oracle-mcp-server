@@ -1,0 +1,170 @@
+[
+  {
+    "ID": 1,
+    "NOM": "Direction Générale",
+    "ABREV": "DGI",
+    "CODE_DIR": 1010,
+    "DIR_REF": "1",
+    "DIR_CODE": "DGI"
+  },
+  {
+    "ID": 2,
+    "NOM": "Direction de la Legislation Fiscale et du Contentieux",
+    "ABREV": "DLFC",
+    "CODE_DIR": 1011,
+    "DIR_REF": "3",
+    "DIR_CODE": "DLFC"
+  },
+  {
+    "ID": 3,
+    "NOM": "Direction de la Recherche et du Controle Fiscal",
+    "ABREV": "DRCF",
+    "CODE_DIR": 1012,
+    "DIR_REF": "4",
+    "DIR_CODE": "DRCF"
+  },
+  {
+    "ID": 4,
+    "NOM": "Direction de la Programmation des Ressources",
+    "ABREV": "DPR",
+    "CODE_DIR": 1013,
+    "DIR_REF": "2",
+    "DIR_CODE": "DPR"
+  },
+  {
+    "ID": 5,
+    "NOM": "Direction de la Formation professionnelle",
+    "ABREV": "DFP",
+    "CODE_DIR": 1014,
+    "DIR_REF": "32",
+    "DIR_CODE": "DFP Faravohitra"
+  },
+  {
+    "ID": 6,
+    "NOM": "Direction Technique",
+    "ABREV": "DITEC",
+    "CODE_DIR": 1015,
+    "DIR_REF": "33",
+    "DIR_CODE": "DIR TEC Mandrosoa"
+  },
+  {
+    "ID": 7,
+    "NOM": "Direction des Grandes Entreprises",
+    "ABREV": "DGE",
+    "CODE_DIR": 1016,
+    "DIR_REF": "5",
+    "DIR_CODE": "DGE"
+  },
+  {
+    "ID": 8,
+    "NOM": "Direction Régionale des Impôts Alaotra Mangoro",
+    "ABREV": "DRI-ALMGR",
+    "CODE_DIR": 1017,
+    "DIR_REF": "15",
+    "DIR_CODE": "DRI Alaotra Mangoro"
+  },
+  {
+    "ID": 9,
+    "NOM": "Direction Régionale des Impôts Analamanga",
+    "ABREV": "DRI-ANG",
+    "CODE_DIR": 1018,
+    "DIR_REF": "6",
+    "DIR_CODE": "DRI Analamanga"
+  },
+  {
+    "ID": 10,
+    "NOM": "Direction Régionale des Impôts Anosy",
+    "ABREV": "DRI-ANS",
+    "CODE_DIR": 1019,
+    "DIR_REF": "30",
+    "DIR_CODE": "DRI ANOSY"
+  },
+  {
+    "ID": 11,
+    "NOM": "Direction Régionale des Impôts Atsimo Andrefana",
+    "ABREV": "DRI-ATSAND",
+    "CODE_DIR": 1020,
+    "DIR_REF": "17",
+    "DIR_CODE": "DRI Atsimo Andrefana"
+  },
+  {
+    "ID": 12,
+    "NOM": "Direction Régionale des Impôts Atsinanana",
+    "ABREV": "DRI-ATSN",
+    "CODE_DIR": 1021,
+    "DIR_REF": "16",
+    "DIR_CODE": "DRI Antsinanana"
+  },
+  {
+    "ID": 13,
+    "NOM": "Direction Régionale des Impôts Boeny",
+    "ABREV": "DRI-BN",
+    "CODE_DIR": 1022,
+    "DIR_REF": "12",
+    "DIR_CODE": "DRI Boeny"
+  },
+  {
+    "ID": 14,
+    "NOM": "Direction Régionale des Impôts Diana",
+    "ABREV": "DRI-DN",
+    "CODE_DIR": 1023,
+    "DIR_REF": "13",
+    "DIR_CODE": "DRI Diana"
+  },
+  {
+    "ID": 15,
+    "NOM": "Direction Régionale des Impôts Haute Matsiatra",
+    "ABREV": "DRI-HM",
+    "CODE_DIR": 1024,
+    "DIR_REF": "9",
+    "DIR_CODE": "DRI Haute Matsiatra"
+  },
+  {
+    "ID": 16,
+    "NOM": "Direction Régionale des Impôts Itasy",
+    "ABREV": "DRI-ITS",
+    "CODE_DIR": 1025,
+    "DIR_REF": "8",
+    "DIR_CODE": "DRI Itasy"
+  },
+  {
+    "ID": 17,
+    "NOM": "Direction Régionale des Impôts Menabe",
+    "ABREV": "DRI-MB",
+    "CODE_DIR": 1026,
+    "DIR_REF": "31",
+    "DIR_CODE": "DRI Menabe"
+  },
+  {
+    "ID": 18,
+    "NOM": "Direction Régionale des Impôts Sava",
+    "ABREV": "DRI-SV",
+    "CODE_DIR": 1027,
+    "DIR_REF": "14",
+    "DIR_CODE": "DRI SAVA"
+  },
+  {
+    "ID": 19,
+    "NOM": "Direction Régionale des Impôts Sofia",
+    "ABREV": "DRI-SF",
+    "CODE_DIR": 1028,
+    "DIR_REF": "10",
+    "DIR_CODE": "DRI Sofia"
+  },
+  {
+    "ID": 20,
+    "NOM": "Direction Régionale des Impôts Vakinankaratra",
+    "ABREV": "DRI-VKN",
+    "CODE_DIR": 1029,
+    "DIR_REF": "7",
+    "DIR_CODE": "DRI Vakinakaratra"
+  },
+  {
+    "ID": 21,
+    "NOM": "Direction Régionale des Impôts Vatovavy fitovinany",
+    "ABREV": "DRI-V7V",
+    "CODE_DIR": 1030,
+    "DIR_REF": "11",
+    "DIR_CODE": "DRI Vatovavy Fitovinagny"
+  }
+]

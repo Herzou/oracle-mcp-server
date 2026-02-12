@@ -1,0 +1,107 @@
+[
+  {
+    "ID": 1,
+    "DIR_REF": "1",
+    "DIR_CODE": "DGI"
+  },
+  {
+    "ID": 2,
+    "DIR_REF": "3",
+    "DIR_CODE": "DLFC"
+  },
+  {
+    "ID": 3,
+    "DIR_REF": "4",
+    "DIR_CODE": "DRCF"
+  },
+  {
+    "ID": 4,
+    "DIR_REF": "2",
+    "DIR_CODE": "DPR"
+  },
+  {
+    "ID": 5,
+    "DIR_REF": "32",
+    "DIR_CODE": "DFP Faravohitra"
+  },
+  {
+    "ID": 6,
+    "DIR_REF": "33",
+    "DIR_CODE": "DIR TEC Mandrosoa"
+  },
+  {
+    "ID": 7,
+    "DIR_REF": "5",
+    "DIR_CODE": "DGE"
+  },
+  {
+    "ID": 8,
+    "DIR_REF": "15",
+    "DIR_CODE": "DRI Alaotra Mangoro"
+  },
+  {
+    "ID": 9,
+    "DIR_REF": "6",
+    "DIR_CODE": "DRI Analamanga"
+  },
+  {
+    "ID": 10,
+    "DIR_REF": "30",
+    "DIR_CODE": "DRI ANOSY"
+  },
+  {
+    "ID": 11,
+    "DIR_REF": "17",
+    "DIR_CODE": "DRI Atsimo Andrefana"
+  },
+  {
+    "ID": 12,
+    "DIR_REF": "16",
+    "DIR_CODE": "DRI Antsinanana"
+  },
+  {
+    "ID": 13,
+    "DIR_REF": "12",
+    "DIR_CODE": "DRI Boeny"
+  },
+  {
+    "ID": 14,
+    "DIR_REF": "13",
+    "DIR_CODE": "DRI Diana"
+  },
+  {
+    "ID": 15,
+    "DIR_REF": "9",
+    "DIR_CODE": "DRI Haute Matsiatra"
+  },
+  {
+    "ID": 16,
+    "DIR_REF": "8",
+    "DIR_CODE": "DRI Itasy"
+  },
+  {
+    "ID": 17,
+    "DIR_REF": "31",
+    "DIR_CODE": "DRI Menabe"
+  },
+  {
+    "ID": 18,
+    "DIR_REF": "14",
+    "DIR_CODE": "DRI SAVA"
+  },
+  {
+    "ID": 19,
+    "DIR_REF": "10",
+    "DIR_CODE": "DRI Sofia"
+  },
+  {
+    "ID": 20,
+    "DIR_REF": "7",
+    "DIR_CODE": "DRI Vakinakaratra"
+  },
+  {
+    "ID": 21,
+    "DIR_REF": "11",
+    "DIR_CODE": "DRI Vatovavy Fitovinagny"
+  }
+]

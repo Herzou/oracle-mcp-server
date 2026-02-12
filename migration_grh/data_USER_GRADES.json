@@ -1,0 +1,38 @@
+[
+    {
+      "ID": 1,
+      "GRADE": "ECD",
+      "ABREV": "ECD",
+      "UXID": "682ba60fac635",
+      "CREATED_AT": null,
+      "UPDATED_AT": "2025-06-03T07:41:32.000Z",
+      "IS_ACTIVE": 1
+    },
+    {
+      "ID": 3,
+      "GRADE": "EFA",
+      "ABREV": "EFA",
+      "UXID": "682babae10378",
+      "CREATED_AT": null,
+      "UPDATED_AT": null,
+      "IS_ACTIVE": null
+    },
+    {
+      "ID": 4,
+      "GRADE": "Inspecteur des Impôts",
+      "ABREV": "INSPECTEUR",
+      "UXID": "682ba6a17ebc7",
+      "CREATED_AT": null,
+      "UPDATED_AT": null,
+      "IS_ACTIVE": null
+    },
+    {
+      "ID": 5,
+      "GRADE": "Encadreur",
+      "ABREV": "ENCADREUR",
+      "UXID": "682bae13bcf1d",
+      "CREATED_AT": null,
+      "UPDATED_AT": null,
+      "IS_ACTIVE": null
+    }
+]
